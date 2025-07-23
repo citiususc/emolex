@@ -1,0 +1,545 @@
+<https://w3id.org/def/emolex#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/def/emolex#> <http://purl.org/dc/elements/1.1/creator> "David Chaves Fraga" .
+<https://w3id.org/def/emolex#> <http://purl.org/dc/elements/1.1/creator> "Patricia Martín Chozas" .
+<https://w3id.org/def/emolex#> <http://purl.org/dc/elements/1.1/title> "Ontology for describing emotional word metrics" .
+<https://w3id.org/def/emolex#> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology for describing emotional word metrics" .
+<https://w3id.org/def/emolex#> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/source
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/2004/02/skos/core#scopeNote> "A related resource from which the described resource is derived."@en .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionInfo
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#scopeNote
+<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe rights related to a bibliographic resource."@en .
+# 
+# http://www.w3.org/ns/lemon/lime#entry
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/lime#Lexicon> .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'entry' property relates a lexicon to one of the lexical entries contained in it."@en .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'запись' связывает лексикон с одной из содержащихся в нем словарных единиц."@ru .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "Eintrag"@de .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "Item"@nl .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "entrada"@es .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "entrada"@pt .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "entrata"@it .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "entry"@en .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "entrée"@fr .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "ingång"@sv .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "inskrywing"@af .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "înregistrare"@ro .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "запись"@ru .
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://www.w3.org/ns/lemon/ontolex#canonicalForm
+<http://www.w3.org/ns/lemon/ontolex#canonicalForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/lemon/ontolex#canonicalForm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/lemon/ontolex#lexicalForm> .
+# 
+# http://www.w3.org/ns/lemon/ontolex#lexicalForm
+<http://www.w3.org/ns/lemon/ontolex#lexicalForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/def/emolex#affects
+<https://w3id.org/def/emolex#affects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/emolex#affects> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#affects> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta propiedad asigna una Anotación a una Lexical Entry."@en .
+<https://w3id.org/def/emolex#affects> <http://www.w3.org/2000/01/rdf-schema#label> "affecta a"@es .
+<https://w3id.org/def/emolex#affects> <http://www.w3.org/2000/01/rdf-schema#label> "affects"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/lemon/lime#language
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# https://w3id.org/def/emolex#recognitionTime
+<https://w3id.org/def/emolex#recognitionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/emolex#recognitionTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/emolex#RecognitionTime> .
+<https://w3id.org/def/emolex#recognitionTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# https://w3id.org/riverbench/schema/metadata#mean
+<https://w3id.org/riverbench/schema/metadata#mean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/riverbench/schema/metadata#mean> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/riverbench/schema/metadata#statisticalProperty> .
+<https://w3id.org/riverbench/schema/metadata#mean> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/emolex#SubjectiveDimension> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/emolex#ObjectiveEstimation> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/emolex#EmotionalDimension> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/riverbench/schema/metadata#mean> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/riverbench/schema/metadata#mean> <http://www.w3.org/2000/01/rdf-schema#comment> "Arithmetic mean of a distribution"@en .
+<https://w3id.org/riverbench/schema/metadata#mean> <http://www.w3.org/2000/01/rdf-schema#label> "Mean"@en .
+# 
+# https://w3id.org/riverbench/schema/metadata#standardDeviation
+<https://w3id.org/riverbench/schema/metadata#standardDeviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/riverbench/schema/metadata#standardDeviation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/riverbench/schema/metadata#statisticalProperty> .
+<https://w3id.org/riverbench/schema/metadata#standardDeviation> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid6 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/emolex#SubjectiveDimension> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/emolex#ObjectiveEstimation> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/emolex#EmotionalDimension> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/riverbench/schema/metadata#standardDeviation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/riverbench/schema/metadata#standardDeviation> <http://www.w3.org/2000/01/rdf-schema#comment> "Standard deviation of a distribution"@en .
+<https://w3id.org/riverbench/schema/metadata#standardDeviation> <http://www.w3.org/2000/01/rdf-schema#label> "Standard deviation"@en .
+# 
+# https://w3id.org/riverbench/schema/metadata#statisticalProperty
+<https://w3id.org/riverbench/schema/metadata#statisticalProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/ontology/bibo/Article
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/2000/01/rdf-schema#comment> "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine."@en .
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/2000/01/rdf-schema#label> "Article"@en .
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Document
+<http://purl.org/ontology/bibo/Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdfs.org/ns/void#Dataset
+<http://rdfs.org/ns/void#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression
+<http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/lemon/lime#Lexicon
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/ns/void#Dataset> .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> .
+_:genid11 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#entry> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#language> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#comment> "A lexicon represents a collection of lexical entries for a particular language or domain."@en .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#comment> "Лексикон представляет собой набор словарных единиц для определенного языка или домена."@ru .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lessico"@it .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lexicon"@nl .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikon"@de .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lexique"@fr .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "leksikon"@af .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "lexicon"@en .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "lexicon"@ro .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "lexicón"@es .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "lexikon"@sv .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "лексикон"@ru .
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://www.w3.org/ns/lemon/ontolex#Form
+<http://www.w3.org/ns/lemon/ontolex#Form> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/lemon/ontolex#LexicalEntry
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression> .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/ontolex#Form> .
+_:genid13 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/ontolex#lexicalForm> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/ontolex#Form> .
+_:genid14 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/ontolex#canonicalForm> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#comment> "'Словарная единица' представляет собой единицу анализа словаря, которая состоит из совокупности грамматически связанных форм и совокупности основных значений, ассоциирующихся со всеми этими формами. 'Словарная единица' - это слово, словосочетание или аффикс одной части речи, морфологической модели, этимологии и набора значений."@ru .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#comment> "A lexical entry represents a unit of analysis of the lexicon that consists of a set of forms that are grammatically related and a set of base meanings that are associated with all of these forms. Thus, a lexical entry is a word, multiword expression or affix with a single part-of-speech, morphological pattern, etymology and set of senses."@en .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/ontolex> .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikoneintrag"@de .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "entrada léxica"@es .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "entrata lessicale"@it .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "entrée lexicale"@fr .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "leksikale inskrywing"@af .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "lexical entry"@en .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "lexikaal item"@nl .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "lexikoningång"@sv .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "înregistrare lexicală"@ro .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "словарная единица"@ru .
+<http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://w3id.org/def/emolex#AcquisitionAge
+<https://w3id.org/def/emolex#AcquisitionAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#AcquisitionAge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#AcquisitionAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta variable indica la edad aproximada (en años) a la que un individuo cree que aprendió una determinada palabra."@es .
+<https://w3id.org/def/emolex#AcquisitionAge> <http://www.w3.org/2000/01/rdf-schema#comment> "This variable indicates the approximate age (in years) at which an individual believes they learned a particular word."@en .
+<https://w3id.org/def/emolex#AcquisitionAge> <http://www.w3.org/2000/01/rdf-schema#label> "Acquisition Age"@en .
+<https://w3id.org/def/emolex#AcquisitionAge> <http://www.w3.org/2000/01/rdf-schema#label> "Edad de adquisición"@es .
+# 
+# https://w3id.org/def/emolex#Action
+<https://w3id.org/def/emolex#Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#Action> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of the word's connection with acting, doing, and influencing."@en .
+<https://w3id.org/def/emolex#Action> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de relación de la palabra con actuar, hacer, e influir."@es .
+<https://w3id.org/def/emolex#Action> <http://www.w3.org/2000/01/rdf-schema#label> "Action"@en .
+<https://w3id.org/def/emolex#Action> <http://www.w3.org/2000/01/rdf-schema#label> "Actuación"@es .
+# 
+# https://w3id.org/def/emolex#Amusement
+<https://w3id.org/def/emolex#Amusement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Amusement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Amusement> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of amusement conveyed by a word."@en .
+<https://w3id.org/def/emolex#Amusement> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de diversión que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Amusement> <http://www.w3.org/2000/01/rdf-schema#label> "Amusement"@en .
+<https://w3id.org/def/emolex#Amusement> <http://www.w3.org/2000/01/rdf-schema#label> "Diversión"@es .
+# 
+# https://w3id.org/def/emolex#Anger
+<https://w3id.org/def/emolex#Anger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Anger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Anger> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of anger conveyed by a word."@en .
+<https://w3id.org/def/emolex#Anger> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de enfado que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Anger> <http://www.w3.org/2000/01/rdf-schema#label> "Anger"@en .
+<https://w3id.org/def/emolex#Anger> <http://www.w3.org/2000/01/rdf-schema#label> "Enfado"@es .
+# 
+# https://w3id.org/def/emolex#Annotation
+<https://w3id.org/def/emolex#Annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Annotation> <http://www.w3.org/2000/01/rdf-schema#label> "Annotation"@en .
+<https://w3id.org/def/emolex#Annotation> <http://www.w3.org/2000/01/rdf-schema#label> "Anotación"@es .
+# 
+# https://w3id.org/def/emolex#Arousal
+<https://w3id.org/def/emolex#Arousal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Arousal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#EmotionalDimension> .
+<https://w3id.org/def/emolex#Arousal> <http://www.w3.org/2000/01/rdf-schema#comment> "Arousal refers to the level of calmness or excitement evoked by a word, that is, how relaxing or intense it feels to the person."@en .
+<https://w3id.org/def/emolex#Arousal> <http://www.w3.org/2000/01/rdf-schema#comment> "La activación hace referencia al nivel de calma o excitación que evoca una palabra, es decir, cuán relajante o intensa le resulta a la persona."@es .
+<https://w3id.org/def/emolex#Arousal> <http://www.w3.org/2000/01/rdf-schema#label> "Activación"@es .
+<https://w3id.org/def/emolex#Arousal> <http://www.w3.org/2000/01/rdf-schema#label> "Arousal"@en .
+# 
+# https://w3id.org/def/emolex#Awe
+<https://w3id.org/def/emolex#Awe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Awe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Awe> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of awe conveyed by a word."@en .
+<https://w3id.org/def/emolex#Awe> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de admiración que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Awe> <http://www.w3.org/2000/01/rdf-schema#label> "Admiración"@es .
+<https://w3id.org/def/emolex#Awe> <http://www.w3.org/2000/01/rdf-schema#label> "Awe"@en .
+# 
+# https://w3id.org/def/emolex#BodyExpression
+<https://w3id.org/def/emolex#BodyExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#BodyExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#BodyExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of the word's connection with changes in parts of the body such as the voice, posture, gestures, or facial expression."@en .
+<https://w3id.org/def/emolex#BodyExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de relación de la palabra con cambios en partes del cuerpo como la voz, la postura, los gestos, o la expresión de la cara"@es .
+<https://w3id.org/def/emolex#BodyExpression> <http://www.w3.org/2000/01/rdf-schema#label> "Body Expression"@en .
+<https://w3id.org/def/emolex#BodyExpression> <http://www.w3.org/2000/01/rdf-schema#label> "Expresión Corporal"@es .
+# 
+# https://w3id.org/def/emolex#Concreteness
+<https://w3id.org/def/emolex#Concreteness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Concreteness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#Concreteness> <http://www.w3.org/2000/01/rdf-schema#comment> "Concreteness refers to the extent to which a word refers to an entity that can be perceived with the senses."@en .
+<https://w3id.org/def/emolex#Concreteness> <http://www.w3.org/2000/01/rdf-schema#comment> "La concreción se refiere a hasta qué punto la palabra se refiere a una entidad que puede percibirse con los sentidos."@es .
+<https://w3id.org/def/emolex#Concreteness> <http://www.w3.org/2000/01/rdf-schema#label> "Concreción"@es .
+<https://w3id.org/def/emolex#Concreteness> <http://www.w3.org/2000/01/rdf-schema#label> "Concreteness"@en .
+# 
+# https://w3id.org/def/emolex#Contentment
+<https://w3id.org/def/emolex#Contentment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Contentment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Contentment> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of contentment conveyed by a word."@en .
+<https://w3id.org/def/emolex#Contentment> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de satisfacción que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Contentment> <http://www.w3.org/2000/01/rdf-schema#label> "Contentment"@en .
+<https://w3id.org/def/emolex#Contentment> <http://www.w3.org/2000/01/rdf-schema#label> "Satisfacción"@es .
+# 
+# https://w3id.org/def/emolex#ContextualAvailability
+<https://w3id.org/def/emolex#ContextualAvailability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#ContextualAvailability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#ContextualAvailability> <http://www.w3.org/2000/01/rdf-schema#comment> "Contextual availability refers to the ease with which we can think of a context to which the word could be associated."@en .
+<https://w3id.org/def/emolex#ContextualAvailability> <http://www.w3.org/2000/01/rdf-schema#comment> "La disponibilidad contextual se refiere a la facilidad con la que podemos pensar en un contexto al cual se podría asociar la palabra."@es .
+<https://w3id.org/def/emolex#ContextualAvailability> <http://www.w3.org/2000/01/rdf-schema#label> "Contextual Availability"@en .
+<https://w3id.org/def/emolex#ContextualAvailability> <http://www.w3.org/2000/01/rdf-schema#label> "Disponibilidad contextual"@es .
+# 
+# https://w3id.org/def/emolex#DiscreteEmotionalCategory
+<https://w3id.org/def/emolex#DiscreteEmotionalCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#DiscreteEmotionalCategory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#DiscreteEmotionalCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Categoría emocional discreta"@es .
+<https://w3id.org/def/emolex#DiscreteEmotionalCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Discrete emotional category"@en .
+# 
+# https://w3id.org/def/emolex#Disgust
+<https://w3id.org/def/emolex#Disgust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Disgust> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Disgust> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of disgust conveyed by a word."@en .
+<https://w3id.org/def/emolex#Disgust> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de asco que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Disgust> <http://www.w3.org/2000/01/rdf-schema#label> "Asco"@es .
+<https://w3id.org/def/emolex#Disgust> <http://www.w3.org/2000/01/rdf-schema#label> "Disgust"@en .
+# 
+# https://w3id.org/def/emolex#Dominance
+<https://w3id.org/def/emolex#Dominance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Dominance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#EmotionalDimension> .
+<https://w3id.org/def/emolex#Dominance> <http://www.w3.org/2000/01/rdf-schema#comment> "Dominance refers to the perception of control evoked by a word, that is, the extent to which a person feels weak/submissive or strong/dominant in relation to the concept the word represents."@en .
+<https://w3id.org/def/emolex#Dominance> <http://www.w3.org/2000/01/rdf-schema#comment> "La dominancia hace referencia a la percepción de control que evoca una palabra, es decir, hasta qué punto la persona se siente débil/sumisa o fuerte/dominante ante el concepto que designa la palabra."@es .
+<https://w3id.org/def/emolex#Dominance> <http://www.w3.org/2000/01/rdf-schema#label> "Dominance"@en .
+<https://w3id.org/def/emolex#Dominance> <http://www.w3.org/2000/01/rdf-schema#label> "Dominancia"@es .
+# 
+# https://w3id.org/def/emolex#EmotionalDimension
+<https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensión emocional"@es .
+<https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Emotional Dimension"@en .
+# 
+# https://w3id.org/def/emolex#Evaluation
+<https://w3id.org/def/emolex#Evaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Evaluation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#EmotionalDimension> .
+<https://w3id.org/def/emolex#Evaluation> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of the word's connection with situations that are important for well-being and/or survival."@en .
+<https://w3id.org/def/emolex#Evaluation> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de relación de la palabra con situaciones importantes para el bienestar y/o supervivencia."@es .
+<https://w3id.org/def/emolex#Evaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluación"@es .
+<https://w3id.org/def/emolex#Evaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation"@en .
+# 
+# https://w3id.org/def/emolex#Excitement
+<https://w3id.org/def/emolex#Excitement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Excitement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Excitement> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of excitement conveyed by a word."@en .
+<https://w3id.org/def/emolex#Excitement> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de entusiasmo que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Excitement> <http://www.w3.org/2000/01/rdf-schema#label> "Entusiasmo"@es .
+<https://w3id.org/def/emolex#Excitement> <http://www.w3.org/2000/01/rdf-schema#label> "Excitement"@en .
+# 
+# https://w3id.org/def/emolex#Familiarity
+<https://w3id.org/def/emolex#Familiarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Familiarity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#Familiarity> <http://www.w3.org/2000/01/rdf-schema#comment> "Familiarity refers to how familiar or known a word feels to a person."@en .
+<https://w3id.org/def/emolex#Familiarity> <http://www.w3.org/2000/01/rdf-schema#comment> "La familiaridad hace referencia a cuán familiar o conocida resulta una palabra para la persona."@es .
+<https://w3id.org/def/emolex#Familiarity> <http://www.w3.org/2000/01/rdf-schema#label> "Familiaridad"@es .
+<https://w3id.org/def/emolex#Familiarity> <http://www.w3.org/2000/01/rdf-schema#label> "Familiarity"@en .
+# 
+# https://w3id.org/def/emolex#Fear
+<https://w3id.org/def/emolex#Fear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Fear> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Fear> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of fear conveyed by a word."@en .
+<https://w3id.org/def/emolex#Fear> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de miedo que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Fear> <http://www.w3.org/2000/01/rdf-schema#label> "Fear"@en .
+<https://w3id.org/def/emolex#Fear> <http://www.w3.org/2000/01/rdf-schema#label> "Miedo"@es .
+# 
+# https://w3id.org/def/emolex#Feeling
+<https://w3id.org/def/emolex#Feeling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Feeling> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#EmotionalDimension> .
+<https://w3id.org/def/emolex#Feeling> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of the word's connection with feelings."@en .
+<https://w3id.org/def/emolex#Feeling> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de relación de la palabra con sentimientos."@es .
+<https://w3id.org/def/emolex#Feeling> <http://www.w3.org/2000/01/rdf-schema#label> "Feeling"@en .
+<https://w3id.org/def/emolex#Feeling> <http://www.w3.org/2000/01/rdf-schema#label> "Sentimiento"@es .
+# 
+# https://w3id.org/def/emolex#Happiness
+<https://w3id.org/def/emolex#Happiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Happiness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Happiness> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of happiness conveyed by a word."@en .
+<https://w3id.org/def/emolex#Happiness> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de felicidad que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Happiness> <http://www.w3.org/2000/01/rdf-schema#label> "Felicidad"@es .
+<https://w3id.org/def/emolex#Happiness> <http://www.w3.org/2000/01/rdf-schema#label> "Happiness"@en .
+# 
+# https://w3id.org/def/emolex#Iconicity
+<https://w3id.org/def/emolex#Iconicity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Iconicity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#Iconicity> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of the word’s sound relation to its meaning."@en .
+<https://w3id.org/def/emolex#Iconicity> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de relación del sonido de la palabra con su significado."@es .
+<https://w3id.org/def/emolex#Iconicity> <http://www.w3.org/2000/01/rdf-schema#label> "Iconicidad"@es .
+<https://w3id.org/def/emolex#Iconicity> <http://www.w3.org/2000/01/rdf-schema#label> "Iconicity"@en .
+# 
+# https://w3id.org/def/emolex#Imageability
+<https://w3id.org/def/emolex#Imageability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Imageability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#Imageability> <http://www.w3.org/2000/01/rdf-schema#comment> "Imaginability refers to the ease with which a mental image of the concept designated by the word can be formed."@en .
+<https://w3id.org/def/emolex#Imageability> <http://www.w3.org/2000/01/rdf-schema#comment> "La imaginabilidad hace referencia a la facilidad para formarse una imagen mental del concepto que designa la palabra."@es .
+<https://w3id.org/def/emolex#Imageability> <http://www.w3.org/2000/01/rdf-schema#label> "Imageability"@en .
+<https://w3id.org/def/emolex#Imageability> <http://www.w3.org/2000/01/rdf-schema#label> "Imaginabilidad"@es .
+# 
+# https://w3id.org/def/emolex#Interoception
+<https://w3id.org/def/emolex#Interoception> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Interoception> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#EmotionalDimension> .
+<https://w3id.org/def/emolex#Interoception> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of the word's connection with internal bodily sensations."@en .
+<https://w3id.org/def/emolex#Interoception> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de relación de la palabra con sensaciones corporales internas."@es .
+<https://w3id.org/def/emolex#Interoception> <http://www.w3.org/2000/01/rdf-schema#label> "Interocepción"@es .
+<https://w3id.org/def/emolex#Interoception> <http://www.w3.org/2000/01/rdf-schema#label> "Interoception"@en .
+# 
+# https://w3id.org/def/emolex#Morality
+<https://w3id.org/def/emolex#Morality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Morality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#Morality> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of the word's connection with morality, rules, or any other principle that guides behavior."@en .
+<https://w3id.org/def/emolex#Morality> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de relación de la palabra con la moralidad, las reglas, o cualquier otro principio que guía la conducta."@es .
+<https://w3id.org/def/emolex#Morality> <http://www.w3.org/2000/01/rdf-schema#label> "Moralidad"@es .
+<https://w3id.org/def/emolex#Morality> <http://www.w3.org/2000/01/rdf-schema#label> "Morality"@en .
+# 
+# https://w3id.org/def/emolex#ObjectiveAcquisitionAge
+<https://w3id.org/def/emolex#ObjectiveAcquisitionAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#ObjectiveAcquisitionAge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#ObjectiveEstimation> .
+<https://w3id.org/def/emolex#ObjectiveAcquisitionAge> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the age at which the word was acquired."@en .
+<https://w3id.org/def/emolex#ObjectiveAcquisitionAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere a la edad en la que se ha adquirido la palabra."@es .
+<https://w3id.org/def/emolex#ObjectiveAcquisitionAge> <http://www.w3.org/2000/01/rdf-schema#label> "Edad de adquisición objetiva"@es .
+<https://w3id.org/def/emolex#ObjectiveAcquisitionAge> <http://www.w3.org/2000/01/rdf-schema#label> "Objective Acquisition Age"@en .
+# 
+# https://w3id.org/def/emolex#ObjectiveEstimation
+<https://w3id.org/def/emolex#ObjectiveEstimation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#ObjectiveEstimation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#ObjectiveEstimation> <http://www.w3.org/2000/01/rdf-schema#label> "Estimación Objetiva"@es .
+<https://w3id.org/def/emolex#ObjectiveEstimation> <http://www.w3.org/2000/01/rdf-schema#label> "Objective Estimation"@en .
+# 
+# https://w3id.org/def/emolex#Pleasure
+<https://w3id.org/def/emolex#Pleasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Pleasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Pleasure> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of pleasure conveyed by a word."@en .
+<https://w3id.org/def/emolex#Pleasure> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de placer que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Pleasure> <http://www.w3.org/2000/01/rdf-schema#label> "Placer"@es .
+<https://w3id.org/def/emolex#Pleasure> <http://www.w3.org/2000/01/rdf-schema#label> "Pleasure"@en .
+# 
+# https://w3id.org/def/emolex#Prototipicality
+<https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#EmotionalDimension> .
+<https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of the word’s connection with an emotion."@en .
+<https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de relación de la palabra con una emoción."@es .
+<https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#label> "Prototipicalidad"@es .
+<https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#label> "Prototipicality"@en .
+# 
+# https://w3id.org/def/emolex#RecognitionErrorPercentage
+<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#RecognitionTime> .
+<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#comment> "%E"@en .
+<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#comment> "Percentage of incorrect word identification in a lexical decision task."@en .
+<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de identificación incorrecta de la palabra en una tarea de decisión léxica."@es .
+<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de error de reconocimiento (LDT)"@es .
+<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#label> "Recognition Error Percentage"@en .
+# 
+# https://w3id.org/def/emolex#RecognitionTime
+<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#label> "Recognition Time"@en .
+<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de reconocimiento"@es .
+# 
+# https://w3id.org/def/emolex#Relief
+<https://w3id.org/def/emolex#Relief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Relief> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Relief> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of relief conveyed by a word."@es .
+<https://w3id.org/def/emolex#Relief> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de alivio que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Relief> <http://www.w3.org/2000/01/rdf-schema#label> "Alivio"@es .
+<https://w3id.org/def/emolex#Relief> <http://www.w3.org/2000/01/rdf-schema#label> "Relief"@en .
+# 
+# https://w3id.org/def/emolex#Sadness
+<https://w3id.org/def/emolex#Sadness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Sadness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Sadness> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of sadness conveyed by a word."@en .
+<https://w3id.org/def/emolex#Sadness> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de tristeza que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Sadness> <http://www.w3.org/2000/01/rdf-schema#label> "Sadness"@en .
+<https://w3id.org/def/emolex#Sadness> <http://www.w3.org/2000/01/rdf-schema#label> "Tristeza"@es .
+# 
+# https://w3id.org/def/emolex#SensoryExperience
+<https://w3id.org/def/emolex#SensoryExperience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#SensoryExperience> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#SensoryExperience> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica hasta qué punto la palabra evoca una experiencia sensorial/perceptiva (sabor, tacto, vista, sonido y olor)."@es .
+<https://w3id.org/def/emolex#SensoryExperience> <http://www.w3.org/2000/01/rdf-schema#comment> "It indicates the extent to which the word evokes a sensory/perceptual experience (taste, touch, sight, sound, and smell)."@en .
+<https://w3id.org/def/emolex#SensoryExperience> <http://www.w3.org/2000/01/rdf-schema#label> "Experiencia sensorial"@es .
+<https://w3id.org/def/emolex#SensoryExperience> <http://www.w3.org/2000/01/rdf-schema#label> "Sensory Experience"@en .
+# 
+# https://w3id.org/def/emolex#Serenity
+<https://w3id.org/def/emolex#Serenity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Serenity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+<https://w3id.org/def/emolex#Serenity> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of serenity conveyed by a word."@en .
+<https://w3id.org/def/emolex#Serenity> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de serenidad que transmite una palabra."@es .
+<https://w3id.org/def/emolex#Serenity> <http://www.w3.org/2000/01/rdf-schema#label> "Serenidad"@es .
+<https://w3id.org/def/emolex#Serenity> <http://www.w3.org/2000/01/rdf-schema#label> "Serenity"@en .
+# 
+# https://w3id.org/def/emolex#SocialInteraction
+<https://w3id.org/def/emolex#SocialInteraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#SocialInteraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#SocialInteraction> <http://www.w3.org/2000/01/rdf-schema#label> "Interacción social"@es .
+<https://w3id.org/def/emolex#SocialInteraction> <http://www.w3.org/2000/01/rdf-schema#label> "Social Interaction"@en .
+# 
+# https://w3id.org/def/emolex#SubjectiveDimension
+<https://w3id.org/def/emolex#SubjectiveDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#SubjectiveDimension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#SubjectiveDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensión subjetiva"@es .
+<https://w3id.org/def/emolex#SubjectiveDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Subjective Dimension"@en .
+# 
+# https://w3id.org/def/emolex#Thought
+<https://w3id.org/def/emolex#Thought> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Thought> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#Thought> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of the word's connection with mental activity, ideas, opinions, and judgments."@en .
+<https://w3id.org/def/emolex#Thought> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de relación de la palabra con la actividad mental, las ideas, las opiniones y los juicios."@es .
+<https://w3id.org/def/emolex#Thought> <http://www.w3.org/2000/01/rdf-schema#label> "Pensamiento"@es .
+<https://w3id.org/def/emolex#Thought> <http://www.w3.org/2000/01/rdf-schema#label> "Thought"@en .
+# 
+# https://w3id.org/def/emolex#TimeNaming
+<https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#RecognitionTime> .
+<https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."@en .
+<https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."@es .
+<https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#label> "Naming time"@en .
+<https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de nombrado"@es .
+# 
+# https://w3id.org/def/emolex#TimeTdl
+<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#RecognitionTime> .
+<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/2000/01/rdf-schema#comment> "La variable tiempo de respuesta en tareas de Decisión Léxica se refiere al tiempo que tarda un participante en reconocer si un estímulo presentado es una palabra real, esto es, que existe en el idioma."@es .
+<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/2000/01/rdf-schema#comment> "The variable response time in Lexical Decision tasks refers to the time it takes for a participant to recognize whether a presented stimulus is a real word, that is, one that exists in the language."@en .
+<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/2000/01/rdf-schema#label> "Response time (TDL)"@en .
+<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de respuesta (LDT)"@es .
+# 
+# https://w3id.org/def/emolex#Valence
+<https://w3id.org/def/emolex#Valence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#Valence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#EmotionalDimension> .
+<https://w3id.org/def/emolex#Valence> <http://www.w3.org/2000/01/rdf-schema#comment> "La valencia hace referencia al nivel de agrado o desagrado que evoca una palabra, es decir, cuán positiva o negativa le resulta a la persona."@es .
+<https://w3id.org/def/emolex#Valence> <http://www.w3.org/2000/01/rdf-schema#comment> "Valence refers to the level of pleasantness or unpleasantness evoked by a word, that is, how positive or negative it feels to the person."@en .
+<https://w3id.org/def/emolex#Valence> <http://www.w3.org/2000/01/rdf-schema#label> "Valence"@en .
+<https://w3id.org/def/emolex#Valence> <http://www.w3.org/2000/01/rdf-schema#label> "Valencia"@es .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
