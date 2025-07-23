@@ -1,0 +1,1208 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:shacl="http://www.w3.org/ns/shacl#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#class -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#class"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#datatype -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#datatype"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#description -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#description"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#maxCount -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#maxCount"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#minCount -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#minCount"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#name -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#name"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#nodeKind -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#nodeKind"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#path -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#path"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#pattern -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#pattern"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#property -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#property"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#qualifiedMaxCount -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#qualifiedMaxCount"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#qualifiedMinCount -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#qualifiedMinCount"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#qualifiedValueShape -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#qualifiedValueShape"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#targetClass -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#targetClass"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#NodeShape -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/shacl#NodeShape"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#PropertyShape -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/shacl#PropertyShape"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#a2dd910a418adc44843f339d1bfa2224 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#a2dd910a418adc44843f339d1bfa2224">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="http://www.w3.org/ns/lemon/ontolex#canonicalForm"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Imageability</rdfs:label>
+        <rdfs:label xml:lang="es">Imaginabilidad</rdfs:label>
+        <shacl:description xml:lang="en">Imaginability refers to the ease with which a mental image of the concept designated by the word can be formed.</shacl:description>
+        <shacl:description xml:lang="es">La imaginabilidad hace referencia a la facilidad para formarse una imagen mental del concepto que designa la palabra.</shacl:description>
+        <shacl:name xml:lang="en">Imageability</shacl:name>
+        <shacl:name xml:lang="es">Imaginabilidad</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Imageability"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Interocepción</rdfs:label>
+        <rdfs:label xml:lang="en">Interoception</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of the word&apos;s connection with internal bodily sensations.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de relación de la palabra con sensaciones corporales internas.</shacl:description>
+        <shacl:name xml:lang="es">Interocepción</shacl:name>
+        <shacl:name xml:lang="en">Interoception</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Interoception"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#a87e2c18270dad5d82c2162284207e68 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#a87e2c18270dad5d82c2162284207e68">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://w3id.org/riverbench/schema/metadata#statisticalProperty"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:isDefinedBy>http://www.w3.org/ns/lemon/lime</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="de">Eintrag</rdfs:label>
+        <rdfs:label xml:lang="nl">Item</rdfs:label>
+        <rdfs:label xml:lang="en">The &apos;entry&apos; property relates a lexicon to one of the lexical entries contained in it.</rdfs:label>
+        <rdfs:label xml:lang="es">entrada</rdfs:label>
+        <rdfs:label xml:lang="pt">entrada</rdfs:label>
+        <rdfs:label xml:lang="it">entrata</rdfs:label>
+        <rdfs:label xml:lang="en">entry</rdfs:label>
+        <rdfs:label xml:lang="fr">entrée</rdfs:label>
+        <rdfs:label xml:lang="sv">ingång</rdfs:label>
+        <rdfs:label xml:lang="af">inskrywing</rdfs:label>
+        <rdfs:label xml:lang="ro">înregistrare</rdfs:label>
+        <rdfs:label xml:lang="ru">Свойство &apos;запись&apos; связывает лексикон с одной из содержащихся в нем словарных единиц.</rdfs:label>
+        <rdfs:label xml:lang="ru">запись</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+        <shacl:description xml:lang="en">The &apos;entry&apos; property relates a lexicon to one of the lexical entries contained in it.</shacl:description>
+        <shacl:description xml:lang="ru">Свойство &apos;запись&apos; связывает лексикон с одной из содержащихся в нем словарных единиц.</shacl:description>
+        <shacl:name xml:lang="de">Eintrag</shacl:name>
+        <shacl:name xml:lang="nl">Item</shacl:name>
+        <shacl:name xml:lang="es">entrada</shacl:name>
+        <shacl:name xml:lang="pt">entrada</shacl:name>
+        <shacl:name xml:lang="it">entrata</shacl:name>
+        <shacl:name xml:lang="en">entry</shacl:name>
+        <shacl:name xml:lang="fr">entrée</shacl:name>
+        <shacl:name xml:lang="sv">ingång</shacl:name>
+        <shacl:name xml:lang="af">inskrywing</shacl:name>
+        <shacl:name xml:lang="ro">înregistrare</shacl:name>
+        <shacl:name xml:lang="ru">запись</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="http://www.w3.org/ns/lemon/lime#entry"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Placer</rdfs:label>
+        <rdfs:label xml:lang="en">Pleasure</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of pleasure conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de placer que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="es">Placer</shacl:name>
+        <shacl:name xml:lang="en">Pleasure</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Pleasure"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Iconicidad</rdfs:label>
+        <rdfs:label xml:lang="en">Iconicity</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of the word’s sound relation to its meaning.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de relación del sonido de la palabra con su significado.</shacl:description>
+        <shacl:name xml:lang="es">Iconicidad</shacl:name>
+        <shacl:name xml:lang="en">Iconicity</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Iconicity"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://w3id.org/def/emolex#recognitionTime"/>
+        <shacl:pattern>(\+|-)?([0-9]+(\.[0-9]*)?|\.[0-9]+)([Ee](\+|-)?[0-9]+)?|(\+|-)?INF|NaN</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Acquisition Age</rdfs:label>
+        <rdfs:label xml:lang="es">Edad de adquisición</rdfs:label>
+        <shacl:description xml:lang="es">Esta variable indica la edad aproximada (en años) a la que un individuo cree que aprendió una determinada palabra.</shacl:description>
+        <shacl:description xml:lang="en">This variable indicates the approximate age (in years) at which an individual believes they learned a particular word.</shacl:description>
+        <shacl:name xml:lang="en">Acquisition Age</shacl:name>
+        <shacl:name xml:lang="es">Edad de adquisición</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#AcquisitionAge"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:isDefinedBy>http://www.w3.org/ns/lemon/lime</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="it">Lessico</rdfs:label>
+        <rdfs:label xml:lang="nl">Lexicon</rdfs:label>
+        <rdfs:label xml:lang="de">Lexikon</rdfs:label>
+        <rdfs:label xml:lang="fr">Lexique</rdfs:label>
+        <rdfs:label xml:lang="af">leksikon</rdfs:label>
+        <rdfs:label xml:lang="en">lexicon</rdfs:label>
+        <rdfs:label xml:lang="ro">lexicon</rdfs:label>
+        <rdfs:label xml:lang="es">lexicón</rdfs:label>
+        <rdfs:label xml:lang="sv">lexikon</rdfs:label>
+        <rdfs:label xml:lang="ru">лексикон</rdfs:label>
+        <shacl:description xml:lang="en">A lexicon represents a collection of lexical entries for a particular language or domain.</shacl:description>
+        <shacl:description xml:lang="ru">Лексикон представляет собой набор словарных единиц для определенного языка или домена.</shacl:description>
+        <shacl:name xml:lang="it">Lessico</shacl:name>
+        <shacl:name xml:lang="nl">Lexicon</shacl:name>
+        <shacl:name xml:lang="de">Lexikon</shacl:name>
+        <shacl:name xml:lang="fr">Lexique</shacl:name>
+        <shacl:name xml:lang="af">leksikon</shacl:name>
+        <shacl:name xml:lang="en">lexicon</shacl:name>
+        <shacl:name xml:lang="ro">lexicon</shacl:name>
+        <shacl:name xml:lang="es">lexicón</shacl:name>
+        <shacl:name xml:lang="sv">lexikon</shacl:name>
+        <shacl:name xml:lang="ru">лексикон</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924"/>
+        <shacl:targetClass rdf:resource="http://www.w3.org/ns/lemon/lime#Lexicon"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Activación</rdfs:label>
+        <rdfs:label xml:lang="en">Arousal</rdfs:label>
+        <shacl:description xml:lang="en">Arousal refers to the level of calmness or excitement evoked by a word, that is, how relaxing or intense it feels to the person.</shacl:description>
+        <shacl:description xml:lang="es">La activación hace referencia al nivel de calma o excitación que evoca una palabra, es decir, cuán relajante o intensa le resulta a la persona.</shacl:description>
+        <shacl:name xml:lang="es">Activación</shacl:name>
+        <shacl:name xml:lang="en">Arousal</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Arousal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Annotation</rdfs:label>
+        <rdfs:label xml:lang="es">Anotación</rdfs:label>
+        <shacl:name xml:lang="en">Annotation</shacl:name>
+        <shacl:name xml:lang="es">Anotación</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Annotation"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#cbe9e83217bc609ef25d06ff0ff17ae4 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#cbe9e83217bc609ef25d06ff0ff17ae4">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Response time (TDL)</rdfs:label>
+        <rdfs:label xml:lang="es">Tiempo de respuesta (LDT)</rdfs:label>
+        <shacl:description xml:lang="es">La variable tiempo de respuesta en tareas de Decisión Léxica se refiere al tiempo que tarda un participante en reconocer si un estímulo presentado es una palabra real, esto es, que existe en el idioma.</shacl:description>
+        <shacl:description xml:lang="en">The variable response time in Lexical Decision tasks refers to the time it takes for a participant to recognize whether a presented stimulus is a real word, that is, one that exists in the language.</shacl:description>
+        <shacl:name xml:lang="en">Response time (TDL)</shacl:name>
+        <shacl:name xml:lang="es">Tiempo de respuesta (LDT)</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#TimeTdl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Sadness</rdfs:label>
+        <rdfs:label xml:lang="es">Tristeza</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of sadness conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de tristeza que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="en">Sadness</shacl:name>
+        <shacl:name xml:lang="es">Tristeza</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Sadness"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Entusiasmo</rdfs:label>
+        <rdfs:label xml:lang="en">Excitement</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of excitement conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de entusiasmo que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="es">Entusiasmo</shacl:name>
+        <shacl:name xml:lang="en">Excitement</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Excitement"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Fear</rdfs:label>
+        <rdfs:label xml:lang="es">Miedo</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of fear conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de miedo que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="en">Fear</shacl:name>
+        <shacl:name xml:lang="es">Miedo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Fear"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#e2a95adc29793223657a623996b795d1 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#e2a95adc29793223657a623996b795d1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/rights"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Anger</rdfs:label>
+        <rdfs:label xml:lang="es">Enfado</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of anger conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de enfado que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="en">Anger</shacl:name>
+        <shacl:name xml:lang="es">Enfado</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Anger"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Interacción social</rdfs:label>
+        <rdfs:label xml:lang="en">Social Interaction</rdfs:label>
+        <shacl:name xml:lang="es">Interacción social</shacl:name>
+        <shacl:name xml:lang="en">Social Interaction</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#SocialInteraction"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Dimensión emocional</rdfs:label>
+        <rdfs:label xml:lang="en">Emotional Dimension</rdfs:label>
+        <shacl:name xml:lang="es">Dimensión emocional</shacl:name>
+        <shacl:name xml:lang="en">Emotional Dimension</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#EmotionalDimension"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRIOrLiteral"/>
+        <shacl:path rdf:resource="http://www.w3.org/ns/lemon/lime#entry"/>
+        <shacl:qualifiedMinCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:qualifiedMinCount>
+        <shacl:qualifiedValueShape>
+            <rdf:Description>
+                <shacl:class rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+            </rdf:Description>
+        </shacl:qualifiedValueShape>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Naming time</rdfs:label>
+        <rdfs:label xml:lang="es">Tiempo de nombrado</rdfs:label>
+        <shacl:description xml:lang="en">Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta.</shacl:description>
+        <shacl:name xml:lang="en">Naming time</shacl:name>
+        <shacl:name xml:lang="es">Tiempo de nombrado</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#TimeNaming"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="en">Standard deviation</rdfs:label>
+        <rdfs:label xml:lang="en">Standard deviation of a distribution</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <shacl:description xml:lang="en">Standard deviation of a distribution</shacl:description>
+        <shacl:name xml:lang="en">Standard deviation</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://w3id.org/riverbench/schema/metadata#standardDeviation"/>
+        <shacl:pattern>(\+|-)?([0-9]+(\.[0-9]*)?|\.[0-9]+)([Ee](\+|-)?[0-9]+)?|(\+|-)?INF|NaN</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Estimación Objetiva</rdfs:label>
+        <rdfs:label xml:lang="en">Objective Estimation</rdfs:label>
+        <shacl:name xml:lang="es">Estimación Objetiva</shacl:name>
+        <shacl:name xml:lang="en">Objective Estimation</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#ObjectiveEstimation"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Feeling</rdfs:label>
+        <rdfs:label xml:lang="es">Sentimiento</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of the word&apos;s connection with feelings.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de relación de la palabra con sentimientos.</shacl:description>
+        <shacl:name xml:lang="en">Feeling</shacl:name>
+        <shacl:name xml:lang="es">Sentimiento</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Feeling"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#055b02e300ddc4640f57db053c3e3d93 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#055b02e300ddc4640f57db053c3e3d93">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Evaluación</rdfs:label>
+        <rdfs:label xml:lang="en">Evaluation</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of the word&apos;s connection with situations that are important for well-being and/or survival.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de relación de la palabra con situaciones importantes para el bienestar y/o supervivencia.</shacl:description>
+        <shacl:name xml:lang="es">Evaluación</shacl:name>
+        <shacl:name xml:lang="en">Evaluation</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Evaluation"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Contentment</rdfs:label>
+        <rdfs:label xml:lang="es">Satisfacción</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of contentment conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de satisfacción que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="en">Contentment</shacl:name>
+        <shacl:name xml:lang="es">Satisfacción</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Contentment"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Alivio</rdfs:label>
+        <rdfs:label xml:lang="en">Relief</rdfs:label>
+        <shacl:description xml:lang="es">It refers to the degree of relief conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de alivio que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="es">Alivio</shacl:name>
+        <shacl:name xml:lang="en">Relief</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Relief"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Asco</rdfs:label>
+        <rdfs:label xml:lang="en">Disgust</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of disgust conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de asco que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="es">Asco</shacl:name>
+        <shacl:name xml:lang="en">Disgust</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Disgust"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRIOrLiteral"/>
+        <shacl:path rdf:resource="http://www.w3.org/ns/lemon/ontolex#canonicalForm"/>
+        <shacl:qualifiedMaxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:qualifiedMaxCount>
+        <shacl:qualifiedValueShape>
+            <rdf:Description>
+                <shacl:class rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+            </rdf:Description>
+        </shacl:qualifiedValueShape>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="en">Arithmetic mean of a distribution</rdfs:label>
+        <rdfs:label xml:lang="en">Mean</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <shacl:description xml:lang="en">Arithmetic mean of a distribution</shacl:description>
+        <shacl:name xml:lang="en">Mean</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://w3id.org/riverbench/schema/metadata#mean"/>
+        <shacl:pattern>(\+|-)?([0-9]+(\.[0-9]*)?|\.[0-9]+)([Ee](\+|-)?[0-9]+)?|(\+|-)?INF|NaN</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#3fb6ff86370e59e28c2d3851e5b3f004 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#3fb6ff86370e59e28c2d3851e5b3f004">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Felicidad</rdfs:label>
+        <rdfs:label xml:lang="en">Happiness</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of happiness conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de felicidad que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="es">Felicidad</shacl:name>
+        <shacl:name xml:lang="en">Happiness</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Happiness"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#305f5261afd9d25b76ecf33d5f3e724b -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#305f5261afd9d25b76ecf33d5f3e724b">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="http://www.w3.org/ns/lemon/ontolex#lexicalForm"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRIOrLiteral"/>
+        <shacl:path rdf:resource="http://www.w3.org/ns/lemon/ontolex#lexicalForm"/>
+        <shacl:qualifiedMinCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:qualifiedMinCount>
+        <shacl:qualifiedValueShape>
+            <rdf:Description>
+                <shacl:class rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+            </rdf:Description>
+        </shacl:qualifiedValueShape>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Body Expression</rdfs:label>
+        <rdfs:label xml:lang="es">Expresión Corporal</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of the word&apos;s connection with changes in parts of the body such as the voice, posture, gestures, or facial expression.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de relación de la palabra con cambios en partes del cuerpo como la voz, la postura, los gestos, o la expresión de la cara</shacl:description>
+        <shacl:name xml:lang="en">Body Expression</shacl:name>
+        <shacl:name xml:lang="es">Expresión Corporal</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#BodyExpression"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Experiencia sensorial</rdfs:label>
+        <rdfs:label xml:lang="en">Sensory Experience</rdfs:label>
+        <shacl:description xml:lang="es">Indica hasta qué punto la palabra evoca una experiencia sensorial/perceptiva (sabor, tacto, vista, sonido y olor).</shacl:description>
+        <shacl:description xml:lang="en">It indicates the extent to which the word evokes a sensory/perceptual experience (taste, touch, sight, sound, and smell).</shacl:description>
+        <shacl:name xml:lang="es">Experiencia sensorial</shacl:name>
+        <shacl:name xml:lang="en">Sensory Experience</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#SensoryExperience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#41e77c2f330c01f0cdd742305298c81f -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#41e77c2f330c01f0cdd742305298c81f">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://www.w3.org/ns/lemon/lime#language"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Admiración</rdfs:label>
+        <rdfs:label xml:lang="en">Awe</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of awe conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de admiración que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="es">Admiración</shacl:name>
+        <shacl:name xml:lang="en">Awe</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Awe"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Prototipicalidad</rdfs:label>
+        <rdfs:label xml:lang="en">Prototipicality</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of the word’s connection with an emotion.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de relación de la palabra con una emoción.</shacl:description>
+        <shacl:name xml:lang="es">Prototipicalidad</shacl:name>
+        <shacl:name xml:lang="en">Prototipicality</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Prototipicality"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Action</rdfs:label>
+        <rdfs:label xml:lang="es">Actuación</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of the word&apos;s connection with acting, doing, and influencing.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de relación de la palabra con actuar, hacer, e influir.</shacl:description>
+        <shacl:name xml:lang="en">Action</shacl:name>
+        <shacl:name xml:lang="es">Actuación</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Action"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Porcentaje de error de reconocimiento (LDT)</rdfs:label>
+        <rdfs:label xml:lang="en">Recognition Error Percentage</rdfs:label>
+        <shacl:description xml:lang="en">%E</shacl:description>
+        <shacl:description xml:lang="en">Percentage of incorrect word identification in a lexical decision task.</shacl:description>
+        <shacl:description xml:lang="es">Porcentaje de identificación incorrecta de la palabra en una tarea de decisión léxica.</shacl:description>
+        <shacl:name xml:lang="es">Porcentaje de error de reconocimiento (LDT)</shacl:name>
+        <shacl:name xml:lang="en">Recognition Error Percentage</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#RecognitionErrorPercentage"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Dimensión subjetiva</rdfs:label>
+        <rdfs:label xml:lang="en">Subjective Dimension</rdfs:label>
+        <shacl:name xml:lang="es">Dimensión subjetiva</shacl:name>
+        <shacl:name xml:lang="en">Subjective Dimension</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#SubjectiveDimension"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Serenidad</rdfs:label>
+        <rdfs:label xml:lang="en">Serenity</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of serenity conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de serenidad que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="es">Serenidad</shacl:name>
+        <shacl:name xml:lang="en">Serenity</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Serenity"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Dominance</rdfs:label>
+        <rdfs:label xml:lang="es">Dominancia</rdfs:label>
+        <shacl:description xml:lang="en">Dominance refers to the perception of control evoked by a word, that is, the extent to which a person feels weak/submissive or strong/dominant in relation to the concept the word represents.</shacl:description>
+        <shacl:description xml:lang="es">La dominancia hace referencia a la percepción de control que evoca una palabra, es decir, hasta qué punto la persona se siente débil/sumisa o fuerte/dominante ante el concepto que designa la palabra.</shacl:description>
+        <shacl:name xml:lang="en">Dominance</shacl:name>
+        <shacl:name xml:lang="es">Dominancia</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Dominance"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/lemon/ontolex"/>
+        <rdfs:label xml:lang="de">Lexikoneintrag</rdfs:label>
+        <rdfs:label xml:lang="es">entrada léxica</rdfs:label>
+        <rdfs:label xml:lang="it">entrata lessicale</rdfs:label>
+        <rdfs:label xml:lang="fr">entrée lexicale</rdfs:label>
+        <rdfs:label xml:lang="af">leksikale inskrywing</rdfs:label>
+        <rdfs:label xml:lang="en">lexical entry</rdfs:label>
+        <rdfs:label xml:lang="nl">lexikaal item</rdfs:label>
+        <rdfs:label xml:lang="sv">lexikoningång</rdfs:label>
+        <rdfs:label xml:lang="ro">înregistrare lexicală</rdfs:label>
+        <rdfs:label xml:lang="ru">словарная единица</rdfs:label>
+        <shacl:description xml:lang="ru">&apos;Словарная единица&apos; представляет собой единицу анализа словаря, которая состоит из совокупности грамматически связанных форм и совокупности основных значений, ассоциирующихся со всеми этими формами. &apos;Словарная единица&apos; - это слово, словосочетание или аффикс одной части речи, морфологической модели, этимологии и набора значений.</shacl:description>
+        <shacl:description xml:lang="en">A lexical entry represents a unit of analysis of the lexicon that consists of a set of forms that are grammatically related and a set of base meanings that are associated with all of these forms. Thus, a lexical entry is a word, multiword expression or affix with a single part-of-speech, morphological pattern, etymology and set of senses.</shacl:description>
+        <shacl:name xml:lang="de">Lexikoneintrag</shacl:name>
+        <shacl:name xml:lang="es">entrada léxica</shacl:name>
+        <shacl:name xml:lang="it">entrata lessicale</shacl:name>
+        <shacl:name xml:lang="fr">entrée lexicale</shacl:name>
+        <shacl:name xml:lang="af">leksikale inskrywing</shacl:name>
+        <shacl:name xml:lang="en">lexical entry</shacl:name>
+        <shacl:name xml:lang="nl">lexikaal item</shacl:name>
+        <shacl:name xml:lang="sv">lexikoningång</shacl:name>
+        <shacl:name xml:lang="ro">înregistrare lexicală</shacl:name>
+        <shacl:name xml:lang="ru">словарная единица</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2"/>
+        <shacl:targetClass rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Contextual Availability</rdfs:label>
+        <rdfs:label xml:lang="es">Disponibilidad contextual</rdfs:label>
+        <shacl:description xml:lang="en">Contextual availability refers to the ease with which we can think of a context to which the word could be associated.</shacl:description>
+        <shacl:description xml:lang="es">La disponibilidad contextual se refiere a la facilidad con la que podemos pensar en un contexto al cual se podría asociar la palabra.</shacl:description>
+        <shacl:name xml:lang="en">Contextual Availability</shacl:name>
+        <shacl:name xml:lang="es">Disponibilidad contextual</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#ContextualAvailability"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Categoría emocional discreta</rdfs:label>
+        <rdfs:label xml:lang="en">Discrete emotional category</rdfs:label>
+        <shacl:name xml:lang="es">Categoría emocional discreta</shacl:name>
+        <shacl:name xml:lang="en">Discrete emotional category</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#DiscreteEmotionalCategory"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Familiaridad</rdfs:label>
+        <rdfs:label xml:lang="en">Familiarity</rdfs:label>
+        <shacl:description xml:lang="en">Familiarity refers to how familiar or known a word feels to a person.</shacl:description>
+        <shacl:description xml:lang="es">La familiaridad hace referencia a cuán familiar o conocida resulta una palabra para la persona.</shacl:description>
+        <shacl:name xml:lang="es">Familiaridad</shacl:name>
+        <shacl:name xml:lang="en">Familiarity</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Familiarity"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Edad de adquisición objetiva</rdfs:label>
+        <rdfs:label xml:lang="en">Objective Acquisition Age</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the age at which the word was acquired.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere a la edad en la que se ha adquirido la palabra.</shacl:description>
+        <shacl:name xml:lang="es">Edad de adquisición objetiva</shacl:name>
+        <shacl:name xml:lang="en">Objective Acquisition Age</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#ObjectiveAcquisitionAge"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Concreción</rdfs:label>
+        <rdfs:label xml:lang="en">Concreteness</rdfs:label>
+        <shacl:description xml:lang="en">Concreteness refers to the extent to which a word refers to an entity that can be perceived with the senses.</shacl:description>
+        <shacl:description xml:lang="es">La concreción se refiere a hasta qué punto la palabra se refiere a una entidad que puede percibirse con los sentidos.</shacl:description>
+        <shacl:name xml:lang="es">Concreción</shacl:name>
+        <shacl:name xml:lang="en">Concreteness</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Concreteness"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#8fd4b41227dc971480fd9ee63b484c1b -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#8fd4b41227dc971480fd9ee63b484c1b">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Moralidad</rdfs:label>
+        <rdfs:label xml:lang="en">Morality</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of the word&apos;s connection with morality, rules, or any other principle that guides behavior.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de relación de la palabra con la moralidad, las reglas, o cualquier otro principio que guía la conducta.</shacl:description>
+        <shacl:name xml:lang="es">Moralidad</shacl:name>
+        <shacl:name xml:lang="en">Morality</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Morality"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Article</rdfs:label>
+        <shacl:description xml:lang="en">A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine.</shacl:description>
+        <shacl:name xml:lang="en">Article</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Valence</rdfs:label>
+        <rdfs:label xml:lang="es">Valencia</rdfs:label>
+        <shacl:description xml:lang="es">La valencia hace referencia al nivel de agrado o desagrado que evoca una palabra, es decir, cuán positiva o negativa le resulta a la persona.</shacl:description>
+        <shacl:description xml:lang="en">Valence refers to the level of pleasantness or unpleasantness evoked by a word, that is, how positive or negative it feels to the person.</shacl:description>
+        <shacl:name xml:lang="en">Valence</shacl:name>
+        <shacl:name xml:lang="es">Valencia</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Valence"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRIOrLiteral"/>
+        <shacl:path rdf:resource="http://www.w3.org/ns/lemon/lime#language"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="es">Pensamiento</rdfs:label>
+        <rdfs:label xml:lang="en">Thought</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of the word&apos;s connection with mental activity, ideas, opinions, and judgments.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de relación de la palabra con la actividad mental, las ideas, las opiniones y los juicios.</shacl:description>
+        <shacl:name xml:lang="es">Pensamiento</shacl:name>
+        <shacl:name xml:lang="en">Thought</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Thought"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Amusement</rdfs:label>
+        <rdfs:label xml:lang="es">Diversión</rdfs:label>
+        <shacl:description xml:lang="en">It refers to the degree of amusement conveyed by a word.</shacl:description>
+        <shacl:description xml:lang="es">Se refiere al grado de diversión que transmite una palabra.</shacl:description>
+        <shacl:name xml:lang="en">Amusement</shacl:name>
+        <shacl:name xml:lang="es">Diversión</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#Amusement"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="en">Recognition Time</rdfs:label>
+        <rdfs:label xml:lang="es">Tiempo de reconocimiento</rdfs:label>
+        <shacl:name xml:lang="en">Recognition Time</shacl:name>
+        <shacl:name xml:lang="es">Tiempo de reconocimiento</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c"/>
+        <shacl:targetClass rdf:resource="https://w3id.org/def/emolex#RecognitionTime"/>
+    </NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://astrea.linkeddata.es/shapes#6c50d4f07a7da8a2273f365685323f41">
+        <rdfs:label xml:lang="en">Esta propiedad asigna una Anotación a una Lexical Entry.</rdfs:label>
+        <rdfs:label xml:lang="es">affecta a</rdfs:label>
+        <rdfs:label xml:lang="en">affects</rdfs:label>
+        <shacl:description xml:lang="en">Esta propiedad asigna una Anotación a una Lexical Entry.</shacl:description>
+        <shacl:name xml:lang="es">affecta a</shacl:name>
+        <shacl:name xml:lang="en">affects</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

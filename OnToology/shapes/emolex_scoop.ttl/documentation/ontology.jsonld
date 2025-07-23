@@ -1,0 +1,1979 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "_:genid2",
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/ontolex#LexicalEntry"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/ontolex#Form"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/ontolex#Form"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#NodeShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#PropertyShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#datatype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#maxCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#minCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#nodeKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#path",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#pattern",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#qualifiedMaxCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#qualifiedMinCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#qualifiedValueShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#targetClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Feeling"
+  }, {
+    "@language" : "es",
+    "@value" : "Sentimiento"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of the word's connection with feelings."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de relación de la palabra con sentimientos."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Feeling"
+  }, {
+    "@language" : "es",
+    "@value" : "Sentimiento"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Feeling"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#055b02e300ddc4640f57db053c3e3d93",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "http://purl.org/ontology/bibo/Document"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Standard deviation"
+  }, {
+    "@language" : "en",
+    "@value" : "Standard deviation of a distribution"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "Standard deviation of a distribution"
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Standard deviation"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://w3id.org/riverbench/schema/metadata#standardDeviation"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Estimación Objetiva"
+  }, {
+    "@language" : "en",
+    "@value" : "Objective Estimation"
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Estimación Objetiva"
+  }, {
+    "@language" : "en",
+    "@value" : "Objective Estimation"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#ObjectiveEstimation"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contentment"
+  }, {
+    "@language" : "es",
+    "@value" : "Satisfacción"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of contentment conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de satisfacción que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Contentment"
+  }, {
+    "@language" : "es",
+    "@value" : "Satisfacción"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Contentment"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Alivio"
+  }, {
+    "@language" : "en",
+    "@value" : "Relief"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "es",
+    "@value" : "It refers to the degree of relief conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de alivio que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Alivio"
+  }, {
+    "@language" : "en",
+    "@value" : "Relief"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Relief"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación"
+  }, {
+    "@language" : "en",
+    "@value" : "Evaluation"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of the word's connection with situations that are important for well-being and/or survival."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de relación de la palabra con situaciones importantes para el bienestar y/o supervivencia."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación"
+  }, {
+    "@language" : "en",
+    "@value" : "Evaluation"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Evaluation"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRIOrLiteral"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/ontolex#canonicalForm"
+  } ],
+  "http://www.w3.org/ns/shacl#qualifiedMaxCount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/ns/shacl#qualifiedValueShape" : [ {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arithmetic mean of a distribution"
+  }, {
+    "@language" : "en",
+    "@value" : "Mean"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "Arithmetic mean of a distribution"
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Mean"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://w3id.org/riverbench/schema/metadata#mean"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Asco"
+  }, {
+    "@language" : "en",
+    "@value" : "Disgust"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of disgust conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de asco que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Asco"
+  }, {
+    "@language" : "en",
+    "@value" : "Disgust"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Disgust"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Felicidad"
+  }, {
+    "@language" : "en",
+    "@value" : "Happiness"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of happiness conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de felicidad que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Felicidad"
+  }, {
+    "@language" : "en",
+    "@value" : "Happiness"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Happiness"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#305f5261afd9d25b76ecf33d5f3e724b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/ontolex#lexicalForm"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRIOrLiteral"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/ontolex#lexicalForm"
+  } ],
+  "http://www.w3.org/ns/shacl#qualifiedMinCount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/ns/shacl#qualifiedValueShape" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#3fb6ff86370e59e28c2d3851e5b3f004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "http://rdfs.org/ns/void#Dataset"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Experiencia sensorial"
+  }, {
+    "@language" : "en",
+    "@value" : "Sensory Experience"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "es",
+    "@value" : "Indica hasta qué punto la palabra evoca una experiencia sensorial/perceptiva (sabor, tacto, vista, sonido y olor)."
+  }, {
+    "@language" : "en",
+    "@value" : "It indicates the extent to which the word evokes a sensory/perceptual experience (taste, touch, sight, sound, and smell)."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Experiencia sensorial"
+  }, {
+    "@language" : "en",
+    "@value" : "Sensory Experience"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#SensoryExperience"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#41e77c2f330c01f0cdd742305298c81f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/lime#language"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Admiración"
+  }, {
+    "@language" : "en",
+    "@value" : "Awe"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of awe conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de admiración que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Admiración"
+  }, {
+    "@language" : "en",
+    "@value" : "Awe"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Awe"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Body Expression"
+  }, {
+    "@language" : "es",
+    "@value" : "Expresión Corporal"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of the word's connection with changes in parts of the body such as the voice, posture, gestures, or facial expression."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de relación de la palabra con cambios en partes del cuerpo como la voz, la postura, los gestos, o la expresión de la cara"
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Body Expression"
+  }, {
+    "@language" : "es",
+    "@value" : "Expresión Corporal"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#BodyExpression"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Action"
+  }, {
+    "@language" : "es",
+    "@value" : "Actuación"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of the word's connection with acting, doing, and influencing."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de relación de la palabra con actuar, hacer, e influir."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Action"
+  }, {
+    "@language" : "es",
+    "@value" : "Actuación"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Action"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Prototipicalidad"
+  }, {
+    "@language" : "en",
+    "@value" : "Prototipicality"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of the word’s connection with an emotion."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de relación de la palabra con una emoción."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Prototipicalidad"
+  }, {
+    "@language" : "en",
+    "@value" : "Prototipicality"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Prototipicality"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Porcentaje de error de reconocimiento (LDT)"
+  }, {
+    "@language" : "en",
+    "@value" : "Recognition Error Percentage"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "%E"
+  }, {
+    "@language" : "en",
+    "@value" : "Percentage of incorrect word identification in a lexical decision task."
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de identificación incorrecta de la palabra en una tarea de decisión léxica."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Porcentaje de error de reconocimiento (LDT)"
+  }, {
+    "@language" : "en",
+    "@value" : "Recognition Error Percentage"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#RecognitionErrorPercentage"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Dimensión subjetiva"
+  }, {
+    "@language" : "en",
+    "@value" : "Subjective Dimension"
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Dimensión subjetiva"
+  }, {
+    "@language" : "en",
+    "@value" : "Subjective Dimension"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#SubjectiveDimension"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Serenidad"
+  }, {
+    "@language" : "en",
+    "@value" : "Serenity"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of serenity conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de serenidad que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Serenidad"
+  }, {
+    "@language" : "en",
+    "@value" : "Serenity"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Serenity"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dominance"
+  }, {
+    "@language" : "es",
+    "@value" : "Dominancia"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "Dominance refers to the perception of control evoked by a word, that is, the extent to which a person feels weak/submissive or strong/dominant in relation to the concept the word represents."
+  }, {
+    "@language" : "es",
+    "@value" : "La dominancia hace referencia a la percepción de control que evoca una palabra, es decir, hasta qué punto la persona se siente débil/sumisa o fuerte/dominante ante el concepto que designa la palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Dominance"
+  }, {
+    "@language" : "es",
+    "@value" : "Dominancia"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Dominance"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#6c50d4f07a7da8a2273f365685323f41",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Esta propiedad asigna una Anotación a una Lexical Entry."
+  }, {
+    "@language" : "es",
+    "@value" : "affecta a"
+  }, {
+    "@language" : "en",
+    "@value" : "affects"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "Esta propiedad asigna una Anotación a una Lexical Entry."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "affecta a"
+  }, {
+    "@language" : "en",
+    "@value" : "affects"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contextual Availability"
+  }, {
+    "@language" : "es",
+    "@value" : "Disponibilidad contextual"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "Contextual availability refers to the ease with which we can think of a context to which the word could be associated."
+  }, {
+    "@language" : "es",
+    "@value" : "La disponibilidad contextual se refiere a la facilidad con la que podemos pensar en un contexto al cual se podría asociar la palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Contextual Availability"
+  }, {
+    "@language" : "es",
+    "@value" : "Disponibilidad contextual"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#ContextualAvailability"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Categoría emocional discreta"
+  }, {
+    "@language" : "en",
+    "@value" : "Discrete emotional category"
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Categoría emocional discreta"
+  }, {
+    "@language" : "en",
+    "@value" : "Discrete emotional category"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#DiscreteEmotionalCategory"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Familiaridad"
+  }, {
+    "@language" : "en",
+    "@value" : "Familiarity"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "Familiarity refers to how familiar or known a word feels to a person."
+  }, {
+    "@language" : "es",
+    "@value" : "La familiaridad hace referencia a cuán familiar o conocida resulta una palabra para la persona."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Familiaridad"
+  }, {
+    "@language" : "en",
+    "@value" : "Familiarity"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Familiarity"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/ontolex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Lexikoneintrag"
+  }, {
+    "@language" : "es",
+    "@value" : "entrada léxica"
+  }, {
+    "@language" : "it",
+    "@value" : "entrata lessicale"
+  }, {
+    "@language" : "fr",
+    "@value" : "entrée lexicale"
+  }, {
+    "@language" : "af",
+    "@value" : "leksikale inskrywing"
+  }, {
+    "@language" : "en",
+    "@value" : "lexical entry"
+  }, {
+    "@language" : "nl",
+    "@value" : "lexikaal item"
+  }, {
+    "@language" : "sv",
+    "@value" : "lexikoningång"
+  }, {
+    "@language" : "ro",
+    "@value" : "înregistrare lexicală"
+  }, {
+    "@language" : "ru",
+    "@value" : "словарная единица"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "ru",
+    "@value" : "'Словарная единица' представляет собой единицу анализа словаря, которая состоит из совокупности грамматически связанных форм и совокупности основных значений, ассоциирующихся со всеми этими формами. 'Словарная единица' - это слово, словосочетание или аффикс одной части речи, морфологической модели, этимологии и набора значений."
+  }, {
+    "@language" : "en",
+    "@value" : "A lexical entry represents a unit of analysis of the lexicon that consists of a set of forms that are grammatically related and a set of base meanings that are associated with all of these forms. Thus, a lexical entry is a word, multiword expression or affix with a single part-of-speech, morphological pattern, etymology and set of senses."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "de",
+    "@value" : "Lexikoneintrag"
+  }, {
+    "@language" : "es",
+    "@value" : "entrada léxica"
+  }, {
+    "@language" : "it",
+    "@value" : "entrata lessicale"
+  }, {
+    "@language" : "fr",
+    "@value" : "entrée lexicale"
+  }, {
+    "@language" : "af",
+    "@value" : "leksikale inskrywing"
+  }, {
+    "@language" : "en",
+    "@value" : "lexical entry"
+  }, {
+    "@language" : "nl",
+    "@value" : "lexikaal item"
+  }, {
+    "@language" : "sv",
+    "@value" : "lexikoningång"
+  }, {
+    "@language" : "ro",
+    "@value" : "înregistrare lexicală"
+  }, {
+    "@language" : "ru",
+    "@value" : "словарная единица"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/ontolex#LexicalEntry"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Moralidad"
+  }, {
+    "@language" : "en",
+    "@value" : "Morality"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of the word's connection with morality, rules, or any other principle that guides behavior."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de relación de la palabra con la moralidad, las reglas, o cualquier otro principio que guía la conducta."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Moralidad"
+  }, {
+    "@language" : "en",
+    "@value" : "Morality"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Morality"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.org/ontology/bibo/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Article"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Article"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "http://purl.org/ontology/bibo/Article"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Valence"
+  }, {
+    "@language" : "es",
+    "@value" : "Valencia"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "es",
+    "@value" : "La valencia hace referencia al nivel de agrado o desagrado que evoca una palabra, es decir, cuán positiva o negativa le resulta a la persona."
+  }, {
+    "@language" : "en",
+    "@value" : "Valence refers to the level of pleasantness or unpleasantness evoked by a word, that is, how positive or negative it feels to the person."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Valence"
+  }, {
+    "@language" : "es",
+    "@value" : "Valencia"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Valence"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/ns/shacl#maxCount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/ns/shacl#minCount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRIOrLiteral"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/lime#language"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Pensamiento"
+  }, {
+    "@language" : "en",
+    "@value" : "Thought"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of the word's connection with mental activity, ideas, opinions, and judgments."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de relación de la palabra con la actividad mental, las ideas, las opiniones y los juicios."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Pensamiento"
+  }, {
+    "@language" : "en",
+    "@value" : "Thought"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Thought"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Edad de adquisición objetiva"
+  }, {
+    "@language" : "en",
+    "@value" : "Objective Acquisition Age"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the age at which the word was acquired."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere a la edad en la que se ha adquirido la palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Edad de adquisición objetiva"
+  }, {
+    "@language" : "en",
+    "@value" : "Objective Acquisition Age"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#ObjectiveAcquisitionAge"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Concreción"
+  }, {
+    "@language" : "en",
+    "@value" : "Concreteness"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "Concreteness refers to the extent to which a word refers to an entity that can be perceived with the senses."
+  }, {
+    "@language" : "es",
+    "@value" : "La concreción se refiere a hasta qué punto la palabra se refiere a una entidad que puede percibirse con los sentidos."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Concreción"
+  }, {
+    "@language" : "en",
+    "@value" : "Concreteness"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Concreteness"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#8fd4b41227dc971480fd9ee63b484c1b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Recognition Time"
+  }, {
+    "@language" : "es",
+    "@value" : "Tiempo de reconocimiento"
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Recognition Time"
+  }, {
+    "@language" : "es",
+    "@value" : "Tiempo de reconocimiento"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Amusement"
+  }, {
+    "@language" : "es",
+    "@value" : "Diversión"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of amusement conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de diversión que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Amusement"
+  }, {
+    "@language" : "es",
+    "@value" : "Diversión"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Amusement"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#a2dd910a418adc44843f339d1bfa2224",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/ontolex#canonicalForm"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Imageability"
+  }, {
+    "@language" : "es",
+    "@value" : "Imaginabilidad"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "Imaginability refers to the ease with which a mental image of the concept designated by the word can be formed."
+  }, {
+    "@language" : "es",
+    "@value" : "La imaginabilidad hace referencia a la facilidad para formarse una imagen mental del concepto que designa la palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Imageability"
+  }, {
+    "@language" : "es",
+    "@value" : "Imaginabilidad"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Imageability"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Interocepción"
+  }, {
+    "@language" : "en",
+    "@value" : "Interoception"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of the word's connection with internal bodily sensations."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de relación de la palabra con sensaciones corporales internas."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Interocepción"
+  }, {
+    "@language" : "en",
+    "@value" : "Interoception"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Interoception"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#a87e2c18270dad5d82c2162284207e68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://w3id.org/riverbench/schema/metadata#statisticalProperty"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://www.w3.org/ns/lemon/lime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Eintrag"
+  }, {
+    "@language" : "nl",
+    "@value" : "Item"
+  }, {
+    "@language" : "en",
+    "@value" : "The 'entry' property relates a lexicon to one of the lexical entries contained in it."
+  }, {
+    "@language" : "es",
+    "@value" : "entrada"
+  }, {
+    "@language" : "pt",
+    "@value" : "entrada"
+  }, {
+    "@language" : "it",
+    "@value" : "entrata"
+  }, {
+    "@language" : "en",
+    "@value" : "entry"
+  }, {
+    "@language" : "fr",
+    "@value" : "entrée"
+  }, {
+    "@language" : "sv",
+    "@value" : "ingång"
+  }, {
+    "@language" : "af",
+    "@value" : "inskrywing"
+  }, {
+    "@language" : "ro",
+    "@value" : "înregistrare"
+  }, {
+    "@language" : "ru",
+    "@value" : "Свойство 'запись' связывает лексикон с одной из содержащихся в нем словарных единиц."
+  }, {
+    "@language" : "ru",
+    "@value" : "запись"
+  } ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/ontolex#LexicalEntry"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "The 'entry' property relates a lexicon to one of the lexical entries contained in it."
+  }, {
+    "@language" : "ru",
+    "@value" : "Свойство 'запись' связывает лексикон с одной из содержащихся в нем словарных единиц."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "de",
+    "@value" : "Eintrag"
+  }, {
+    "@language" : "nl",
+    "@value" : "Item"
+  }, {
+    "@language" : "es",
+    "@value" : "entrada"
+  }, {
+    "@language" : "pt",
+    "@value" : "entrada"
+  }, {
+    "@language" : "it",
+    "@value" : "entrata"
+  }, {
+    "@language" : "en",
+    "@value" : "entry"
+  }, {
+    "@language" : "fr",
+    "@value" : "entrée"
+  }, {
+    "@language" : "sv",
+    "@value" : "ingång"
+  }, {
+    "@language" : "af",
+    "@value" : "inskrywing"
+  }, {
+    "@language" : "ro",
+    "@value" : "înregistrare"
+  }, {
+    "@language" : "ru",
+    "@value" : "запись"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/lime#entry"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Placer"
+  }, {
+    "@language" : "en",
+    "@value" : "Pleasure"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of pleasure conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de placer que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Placer"
+  }, {
+    "@language" : "en",
+    "@value" : "Pleasure"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Pleasure"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Iconicidad"
+  }, {
+    "@language" : "en",
+    "@value" : "Iconicity"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of the word’s sound relation to its meaning."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de relación del sonido de la palabra con su significado."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Iconicidad"
+  }, {
+    "@language" : "en",
+    "@value" : "Iconicity"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Iconicity"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://w3id.org/def/emolex#recognitionTime"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Acquisition Age"
+  }, {
+    "@language" : "es",
+    "@value" : "Edad de adquisición"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "es",
+    "@value" : "Esta variable indica la edad aproximada (en años) a la que un individuo cree que aprendió una determinada palabra."
+  }, {
+    "@language" : "en",
+    "@value" : "This variable indicates the approximate age (in years) at which an individual believes they learned a particular word."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Acquisition Age"
+  }, {
+    "@language" : "es",
+    "@value" : "Edad de adquisición"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#AcquisitionAge"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://www.w3.org/ns/lemon/lime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Lessico"
+  }, {
+    "@language" : "nl",
+    "@value" : "Lexicon"
+  }, {
+    "@language" : "de",
+    "@value" : "Lexikon"
+  }, {
+    "@language" : "fr",
+    "@value" : "Lexique"
+  }, {
+    "@language" : "af",
+    "@value" : "leksikon"
+  }, {
+    "@language" : "en",
+    "@value" : "lexicon"
+  }, {
+    "@language" : "ro",
+    "@value" : "lexicon"
+  }, {
+    "@language" : "es",
+    "@value" : "lexicón"
+  }, {
+    "@language" : "sv",
+    "@value" : "lexikon"
+  }, {
+    "@language" : "ru",
+    "@value" : "лексикон"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "A lexicon represents a collection of lexical entries for a particular language or domain."
+  }, {
+    "@language" : "ru",
+    "@value" : "Лексикон представляет собой набор словарных единиц для определенного языка или домена."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "it",
+    "@value" : "Lessico"
+  }, {
+    "@language" : "nl",
+    "@value" : "Lexicon"
+  }, {
+    "@language" : "de",
+    "@value" : "Lexikon"
+  }, {
+    "@language" : "fr",
+    "@value" : "Lexique"
+  }, {
+    "@language" : "af",
+    "@value" : "leksikon"
+  }, {
+    "@language" : "en",
+    "@value" : "lexicon"
+  }, {
+    "@language" : "ro",
+    "@value" : "lexicon"
+  }, {
+    "@language" : "es",
+    "@value" : "lexicón"
+  }, {
+    "@language" : "sv",
+    "@value" : "lexikon"
+  }, {
+    "@language" : "ru",
+    "@value" : "лексикон"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/lime#Lexicon"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Activación"
+  }, {
+    "@language" : "en",
+    "@value" : "Arousal"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "Arousal refers to the level of calmness or excitement evoked by a word, that is, how relaxing or intense it feels to the person."
+  }, {
+    "@language" : "es",
+    "@value" : "La activación hace referencia al nivel de calma o excitación que evoca una palabra, es decir, cuán relajante o intensa le resulta a la persona."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Activación"
+  }, {
+    "@language" : "en",
+    "@value" : "Arousal"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Arousal"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Annotation"
+  }, {
+    "@language" : "es",
+    "@value" : "Anotación"
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Annotation"
+  }, {
+    "@language" : "es",
+    "@value" : "Anotación"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Annotation"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#cbe9e83217bc609ef25d06ff0ff17ae4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/ontolex#Form"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Response time (TDL)"
+  }, {
+    "@language" : "es",
+    "@value" : "Tiempo de respuesta (LDT)"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "es",
+    "@value" : "La variable tiempo de respuesta en tareas de Decisión Léxica se refiere al tiempo que tarda un participante en reconocer si un estímulo presentado es una palabra real, esto es, que existe en el idioma."
+  }, {
+    "@language" : "en",
+    "@value" : "The variable response time in Lexical Decision tasks refers to the time it takes for a participant to recognize whether a presented stimulus is a real word, that is, one that exists in the language."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Response time (TDL)"
+  }, {
+    "@language" : "es",
+    "@value" : "Tiempo de respuesta (LDT)"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#TimeTdl"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sadness"
+  }, {
+    "@language" : "es",
+    "@value" : "Tristeza"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of sadness conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de tristeza que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Sadness"
+  }, {
+    "@language" : "es",
+    "@value" : "Tristeza"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Sadness"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Entusiasmo"
+  }, {
+    "@language" : "en",
+    "@value" : "Excitement"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of excitement conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de entusiasmo que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Entusiasmo"
+  }, {
+    "@language" : "en",
+    "@value" : "Excitement"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Excitement"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fear"
+  }, {
+    "@language" : "es",
+    "@value" : "Miedo"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of fear conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de miedo que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Fear"
+  }, {
+    "@language" : "es",
+    "@value" : "Miedo"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Fear"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#e2a95adc29793223657a623996b795d1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://purl.org/dc/terms/rights"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Anger"
+  }, {
+    "@language" : "es",
+    "@value" : "Enfado"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree of anger conveyed by a word."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado de enfado que transmite una palabra."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Anger"
+  }, {
+    "@language" : "es",
+    "@value" : "Enfado"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#Anger"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Interacción social"
+  }, {
+    "@language" : "en",
+    "@value" : "Social Interaction"
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Interacción social"
+  }, {
+    "@language" : "en",
+    "@value" : "Social Interaction"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#SocialInteraction"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Dimensión emocional"
+  }, {
+    "@language" : "en",
+    "@value" : "Emotional Dimension"
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "es",
+    "@value" : "Dimensión emocional"
+  }, {
+    "@language" : "en",
+    "@value" : "Emotional Dimension"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#EmotionalDimension"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRIOrLiteral"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.w3.org/ns/lemon/lime#entry"
+  } ],
+  "http://www.w3.org/ns/shacl#qualifiedMinCount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/ns/shacl#qualifiedValueShape" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Naming time"
+  }, {
+    "@language" : "es",
+    "@value" : "Tiempo de nombrado"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@language" : "en",
+    "@value" : "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@language" : "en",
+    "@value" : "Naming time"
+  }, {
+    "@language" : "es",
+    "@value" : "Tiempo de nombrado"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#TimeNaming"
+  } ]
+} ]

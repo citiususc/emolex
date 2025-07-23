@@ -1,0 +1,802 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/shacl#class
+<http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#datatype
+<http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#description
+<http://www.w3.org/ns/shacl#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#maxCount
+<http://www.w3.org/ns/shacl#maxCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#minCount
+<http://www.w3.org/ns/shacl#minCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#name
+<http://www.w3.org/ns/shacl#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#nodeKind
+<http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#path
+<http://www.w3.org/ns/shacl#path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#pattern
+<http://www.w3.org/ns/shacl#pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#property
+<http://www.w3.org/ns/shacl#property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#qualifiedMaxCount
+<http://www.w3.org/ns/shacl#qualifiedMaxCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#qualifiedMinCount
+<http://www.w3.org/ns/shacl#qualifiedMinCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#qualifiedValueShape
+<http://www.w3.org/ns/shacl#qualifiedValueShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#targetClass
+<http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/shacl#NodeShape
+<http://www.w3.org/ns/shacl#NodeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/shacl#PropertyShape
+<http://www.w3.org/ns/shacl#PropertyShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://astrea.linkeddata.es/shapes#a2dd910a418adc44843f339d1bfa2224
+<https://astrea.linkeddata.es/shapes#a2dd910a418adc44843f339d1bfa2224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#a2dd910a418adc44843f339d1bfa2224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#a2dd910a418adc44843f339d1bfa2224> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#a2dd910a418adc44843f339d1bfa2224> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/lemon/ontolex#canonicalForm> .
+# 
+# https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d
+<https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d> <http://www.w3.org/2000/01/rdf-schema#label> "Imageability"@en .
+<https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d> <http://www.w3.org/2000/01/rdf-schema#label> "Imaginabilidad"@es .
+<https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d> <http://www.w3.org/ns/shacl#description> "Imaginability refers to the ease with which a mental image of the concept designated by the word can be formed."@en .
+<https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d> <http://www.w3.org/ns/shacl#description> "La imaginabilidad hace referencia a la facilidad para formarse una imagen mental del concepto que designa la palabra."@es .
+<https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d> <http://www.w3.org/ns/shacl#name> "Imageability"@en .
+<https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d> <http://www.w3.org/ns/shacl#name> "Imaginabilidad"@es .
+<https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#a491c41cba6ea559fbc3ec6340e3863d> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Imageability> .
+# 
+# https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424
+<https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424> <http://www.w3.org/2000/01/rdf-schema#label> "Interocepción"@es .
+<https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424> <http://www.w3.org/2000/01/rdf-schema#label> "Interoception"@en .
+<https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424> <http://www.w3.org/ns/shacl#description> "It refers to the degree of the word's connection with internal bodily sensations."@en .
+<https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de relación de la palabra con sensaciones corporales internas."@es .
+<https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424> <http://www.w3.org/ns/shacl#name> "Interocepción"@es .
+<https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424> <http://www.w3.org/ns/shacl#name> "Interoception"@en .
+<https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#a57fb6b6b172e5f67922b83b3df5a424> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Interoception> .
+# 
+# https://astrea.linkeddata.es/shapes#a87e2c18270dad5d82c2162284207e68
+<https://astrea.linkeddata.es/shapes#a87e2c18270dad5d82c2162284207e68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#a87e2c18270dad5d82c2162284207e68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#a87e2c18270dad5d82c2162284207e68> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#a87e2c18270dad5d82c2162284207e68> <http://www.w3.org/ns/shacl#path> <https://w3id.org/riverbench/schema/metadata#statisticalProperty> .
+# 
+# https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "Eintrag"@de .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "Item"@nl .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "The 'entry' property relates a lexicon to one of the lexical entries contained in it."@en .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "entrada"@es .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "entrada"@pt .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "entrata"@it .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "entry"@en .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "entrée"@fr .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "ingång"@sv .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "inskrywing"@af .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "înregistrare"@ro .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "Свойство 'запись' связывает лексикон с одной из содержащихся в нем словарных единиц."@ru .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/2000/01/rdf-schema#label> "запись"@ru .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#description> "The 'entry' property relates a lexicon to one of the lexical entries contained in it."@en .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#description> "Свойство 'запись' связывает лексикон с одной из содержащихся в нем словарных единиц."@ru .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#name> "Eintrag"@de .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#name> "Item"@nl .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#name> "entrada"@es .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#name> "entrada"@pt .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#name> "entrata"@it .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#name> "entry"@en .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#name> "entrée"@fr .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#name> "ingång"@sv .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#name> "inskrywing"@af .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#name> "înregistrare"@ro .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#name> "запись"@ru .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/lemon/lime#entry> .
+# 
+# https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b
+<https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b> <http://www.w3.org/2000/01/rdf-schema#label> "Placer"@es .
+<https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b> <http://www.w3.org/2000/01/rdf-schema#label> "Pleasure"@en .
+<https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b> <http://www.w3.org/ns/shacl#description> "It refers to the degree of pleasure conveyed by a word."@en .
+<https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de placer que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b> <http://www.w3.org/ns/shacl#name> "Placer"@es .
+<https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b> <http://www.w3.org/ns/shacl#name> "Pleasure"@en .
+<https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#b175889e8ceb2fa74b02b44213bbb16b> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Pleasure> .
+# 
+# https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8
+<https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8> <http://www.w3.org/2000/01/rdf-schema#label> "Iconicidad"@es .
+<https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8> <http://www.w3.org/2000/01/rdf-schema#label> "Iconicity"@en .
+<https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8> <http://www.w3.org/ns/shacl#description> "It refers to the degree of the word’s sound relation to its meaning."@en .
+<https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de relación del sonido de la palabra con su significado."@es .
+<https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8> <http://www.w3.org/ns/shacl#name> "Iconicidad"@es .
+<https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8> <http://www.w3.org/ns/shacl#name> "Iconicity"@en .
+<https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#b347ff401b9ac0de5e54f810597a5ef8> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Iconicity> .
+# 
+# https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c
+<https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#float> .
+<https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c> <http://www.w3.org/ns/shacl#path> <https://w3id.org/def/emolex#recognitionTime> .
+<https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c> <http://www.w3.org/ns/shacl#pattern> "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+# 
+# https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5
+<https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5> <http://www.w3.org/2000/01/rdf-schema#label> "Acquisition Age"@en .
+<https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5> <http://www.w3.org/2000/01/rdf-schema#label> "Edad de adquisición"@es .
+<https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5> <http://www.w3.org/ns/shacl#description> "Esta variable indica la edad aproximada (en años) a la que un individuo cree que aprendió una determinada palabra."@es .
+<https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5> <http://www.w3.org/ns/shacl#description> "This variable indicates the approximate age (in years) at which an individual believes they learned a particular word."@en .
+<https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5> <http://www.w3.org/ns/shacl#name> "Acquisition Age"@en .
+<https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5> <http://www.w3.org/ns/shacl#name> "Edad de adquisición"@es .
+<https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#bbbc0ddb35dfa54c1085b5bec3356de5> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#AcquisitionAge> .
+# 
+# https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/2000/01/rdf-schema#label> "Lessico"@it .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/2000/01/rdf-schema#label> "Lexicon"@nl .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikon"@de .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/2000/01/rdf-schema#label> "Lexique"@fr .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/2000/01/rdf-schema#label> "leksikon"@af .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/2000/01/rdf-schema#label> "lexicon"@en .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/2000/01/rdf-schema#label> "lexicon"@ro .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/2000/01/rdf-schema#label> "lexicón"@es .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/2000/01/rdf-schema#label> "lexikon"@sv .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/2000/01/rdf-schema#label> "лексикон"@ru .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#description> "A lexicon represents a collection of lexical entries for a particular language or domain."@en .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#description> "Лексикон представляет собой набор словарных единиц для определенного языка или домена."@ru .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#name> "Lessico"@it .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#name> "Lexicon"@nl .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#name> "Lexikon"@de .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#name> "Lexique"@fr .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#name> "leksikon"@af .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#name> "lexicon"@en .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#name> "lexicon"@ro .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#name> "lexicón"@es .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#name> "lexikon"@sv .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#name> "лексикон"@ru .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#ae785ac4c8235659f933f8494b730fce> .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94> .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924> .
+<https://astrea.linkeddata.es/shapes#c0b3c845d1591150fd13af906c5dbb00> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/ns/lemon/lime#Lexicon> .
+# 
+# https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e
+<https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e> <http://www.w3.org/2000/01/rdf-schema#label> "Activación"@es .
+<https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e> <http://www.w3.org/2000/01/rdf-schema#label> "Arousal"@en .
+<https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e> <http://www.w3.org/ns/shacl#description> "Arousal refers to the level of calmness or excitement evoked by a word, that is, how relaxing or intense it feels to the person."@en .
+<https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e> <http://www.w3.org/ns/shacl#description> "La activación hace referencia al nivel de calma o excitación que evoca una palabra, es decir, cuán relajante o intensa le resulta a la persona."@es .
+<https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e> <http://www.w3.org/ns/shacl#name> "Activación"@es .
+<https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e> <http://www.w3.org/ns/shacl#name> "Arousal"@en .
+<https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#c2ea5789dcb903a31d6420babb3f552e> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Arousal> .
+# 
+# https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434
+<https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434> <http://www.w3.org/2000/01/rdf-schema#label> "Annotation"@en .
+<https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434> <http://www.w3.org/2000/01/rdf-schema#label> "Anotación"@es .
+<https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434> <http://www.w3.org/ns/shacl#name> "Annotation"@en .
+<https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434> <http://www.w3.org/ns/shacl#name> "Anotación"@es .
+<https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#c8f11d59354442336d866398dc526434> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Annotation> .
+# 
+# https://astrea.linkeddata.es/shapes#cbe9e83217bc609ef25d06ff0ff17ae4
+<https://astrea.linkeddata.es/shapes#cbe9e83217bc609ef25d06ff0ff17ae4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#cbe9e83217bc609ef25d06ff0ff17ae4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#cbe9e83217bc609ef25d06ff0ff17ae4> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#cbe9e83217bc609ef25d06ff0ff17ae4> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/ns/lemon/ontolex#Form> .
+# 
+# https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988
+<https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988> <http://www.w3.org/2000/01/rdf-schema#label> "Response time (TDL)"@en .
+<https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de respuesta (LDT)"@es .
+<https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988> <http://www.w3.org/ns/shacl#description> "La variable tiempo de respuesta en tareas de Decisión Léxica se refiere al tiempo que tarda un participante en reconocer si un estímulo presentado es una palabra real, esto es, que existe en el idioma."@es .
+<https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988> <http://www.w3.org/ns/shacl#description> "The variable response time in Lexical Decision tasks refers to the time it takes for a participant to recognize whether a presented stimulus is a real word, that is, one that exists in the language."@en .
+<https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988> <http://www.w3.org/ns/shacl#name> "Response time (TDL)"@en .
+<https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988> <http://www.w3.org/ns/shacl#name> "Tiempo de respuesta (LDT)"@es .
+<https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#ccc643f50918fc30f4da3361e96d7988> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#TimeTdl> .
+# 
+# https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e
+<https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e> <http://www.w3.org/2000/01/rdf-schema#label> "Sadness"@en .
+<https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e> <http://www.w3.org/2000/01/rdf-schema#label> "Tristeza"@es .
+<https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e> <http://www.w3.org/ns/shacl#description> "It refers to the degree of sadness conveyed by a word."@en .
+<https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de tristeza que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e> <http://www.w3.org/ns/shacl#name> "Sadness"@en .
+<https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e> <http://www.w3.org/ns/shacl#name> "Tristeza"@es .
+<https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#d325f0928b7421616bbebc506928fd5e> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Sadness> .
+# 
+# https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497
+<https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497> <http://www.w3.org/2000/01/rdf-schema#label> "Entusiasmo"@es .
+<https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497> <http://www.w3.org/2000/01/rdf-schema#label> "Excitement"@en .
+<https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497> <http://www.w3.org/ns/shacl#description> "It refers to the degree of excitement conveyed by a word."@en .
+<https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de entusiasmo que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497> <http://www.w3.org/ns/shacl#name> "Entusiasmo"@es .
+<https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497> <http://www.w3.org/ns/shacl#name> "Excitement"@en .
+<https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#da91d87368a7bded9258276d74049497> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Excitement> .
+# 
+# https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e
+<https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e> <http://www.w3.org/2000/01/rdf-schema#label> "Fear"@en .
+<https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e> <http://www.w3.org/2000/01/rdf-schema#label> "Miedo"@es .
+<https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e> <http://www.w3.org/ns/shacl#description> "It refers to the degree of fear conveyed by a word."@en .
+<https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de miedo que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e> <http://www.w3.org/ns/shacl#name> "Fear"@en .
+<https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e> <http://www.w3.org/ns/shacl#name> "Miedo"@es .
+<https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#df83ecf87538a620321a13f0667a4b3e> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Fear> .
+# 
+# https://astrea.linkeddata.es/shapes#e2a95adc29793223657a623996b795d1
+<https://astrea.linkeddata.es/shapes#e2a95adc29793223657a623996b795d1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#e2a95adc29793223657a623996b795d1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#e2a95adc29793223657a623996b795d1> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#e2a95adc29793223657a623996b795d1> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/rights> .
+# 
+# https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358
+<https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358> <http://www.w3.org/2000/01/rdf-schema#label> "Anger"@en .
+<https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358> <http://www.w3.org/2000/01/rdf-schema#label> "Enfado"@es .
+<https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358> <http://www.w3.org/ns/shacl#description> "It refers to the degree of anger conveyed by a word."@en .
+<https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de enfado que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358> <http://www.w3.org/ns/shacl#name> "Anger"@en .
+<https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358> <http://www.w3.org/ns/shacl#name> "Enfado"@es .
+<https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#e4ed836e776e22adcd91956196ff9358> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Anger> .
+# 
+# https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e
+<https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e> <http://www.w3.org/2000/01/rdf-schema#label> "Interacción social"@es .
+<https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e> <http://www.w3.org/2000/01/rdf-schema#label> "Social Interaction"@en .
+<https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e> <http://www.w3.org/ns/shacl#name> "Interacción social"@es .
+<https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e> <http://www.w3.org/ns/shacl#name> "Social Interaction"@en .
+<https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#e50c7277c48aafc04fa4de4bb26b9b9e> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#SocialInteraction> .
+# 
+# https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023
+<https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensión emocional"@es .
+<https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023> <http://www.w3.org/2000/01/rdf-schema#label> "Emotional Dimension"@en .
+<https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023> <http://www.w3.org/ns/shacl#name> "Dimensión emocional"@es .
+<https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023> <http://www.w3.org/ns/shacl#name> "Emotional Dimension"@en .
+<https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#f13e7b05e058c40b424e223efd5e3023> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#EmotionalDimension> .
+# 
+# https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94
+<https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRIOrLiteral> .
+<https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/lemon/lime#entry> .
+<https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94> <http://www.w3.org/ns/shacl#qualifiedMinCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#fc89a8253f3433c365b832d809a64b94> <http://www.w3.org/ns/shacl#qualifiedValueShape> _:genid2 .
+_:genid2 <http://www.w3.org/ns/shacl#class> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> .
+# 
+# https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7
+<https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7> <http://www.w3.org/2000/01/rdf-schema#label> "Naming time"@en .
+<https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de nombrado"@es .
+<https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7> <http://www.w3.org/ns/shacl#description> "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."@en .
+<https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7> <http://www.w3.org/ns/shacl#description> "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."@es .
+<https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7> <http://www.w3.org/ns/shacl#name> "Naming time"@en .
+<https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7> <http://www.w3.org/ns/shacl#name> "Tiempo de nombrado"@es .
+<https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#fcef6fd1e4d485cda313af79029c86e7> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#TimeNaming> .
+# 
+# https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983
+<https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983> <http://www.w3.org/2000/01/rdf-schema#label> "Standard deviation"@en .
+<https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983> <http://www.w3.org/2000/01/rdf-schema#label> "Standard deviation of a distribution"@en .
+<https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#double> .
+<https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983> <http://www.w3.org/ns/shacl#description> "Standard deviation of a distribution"@en .
+<https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983> <http://www.w3.org/ns/shacl#name> "Standard deviation"@en .
+<https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983> <http://www.w3.org/ns/shacl#path> <https://w3id.org/riverbench/schema/metadata#standardDeviation> .
+<https://astrea.linkeddata.es/shapes#0d80972d6c234f511957988abf9d7983> <http://www.w3.org/ns/shacl#pattern> "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+# 
+# https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8
+<https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8> <http://www.w3.org/2000/01/rdf-schema#label> "Estimación Objetiva"@es .
+<https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8> <http://www.w3.org/2000/01/rdf-schema#label> "Objective Estimation"@en .
+<https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8> <http://www.w3.org/ns/shacl#name> "Estimación Objetiva"@es .
+<https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8> <http://www.w3.org/ns/shacl#name> "Objective Estimation"@en .
+<https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#0e94214512e21085c9cc668481f86ac8> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#ObjectiveEstimation> .
+# 
+# https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7
+<https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7> <http://www.w3.org/2000/01/rdf-schema#label> "Feeling"@en .
+<https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7> <http://www.w3.org/2000/01/rdf-schema#label> "Sentimiento"@es .
+<https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7> <http://www.w3.org/ns/shacl#description> "It refers to the degree of the word's connection with feelings."@en .
+<https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de relación de la palabra con sentimientos."@es .
+<https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7> <http://www.w3.org/ns/shacl#name> "Feeling"@en .
+<https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7> <http://www.w3.org/ns/shacl#name> "Sentimiento"@es .
+<https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#03feba56ddcc21bf2ac0221716d7b2e7> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Feeling> .
+# 
+# https://astrea.linkeddata.es/shapes#055b02e300ddc4640f57db053c3e3d93
+<https://astrea.linkeddata.es/shapes#055b02e300ddc4640f57db053c3e3d93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#055b02e300ddc4640f57db053c3e3d93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#055b02e300ddc4640f57db053c3e3d93> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#055b02e300ddc4640f57db053c3e3d93> <http://www.w3.org/ns/shacl#targetClass> <http://purl.org/ontology/bibo/Document> .
+# 
+# https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5
+<https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluación"@es .
+<https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation"@en .
+<https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5> <http://www.w3.org/ns/shacl#description> "It refers to the degree of the word's connection with situations that are important for well-being and/or survival."@en .
+<https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de relación de la palabra con situaciones importantes para el bienestar y/o supervivencia."@es .
+<https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5> <http://www.w3.org/ns/shacl#name> "Evaluación"@es .
+<https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5> <http://www.w3.org/ns/shacl#name> "Evaluation"@en .
+<https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#1b41135f42fabf938996ebcb3960d9e5> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Evaluation> .
+# 
+# https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615
+<https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615> <http://www.w3.org/2000/01/rdf-schema#label> "Contentment"@en .
+<https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615> <http://www.w3.org/2000/01/rdf-schema#label> "Satisfacción"@es .
+<https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615> <http://www.w3.org/ns/shacl#description> "It refers to the degree of contentment conveyed by a word."@en .
+<https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de satisfacción que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615> <http://www.w3.org/ns/shacl#name> "Contentment"@en .
+<https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615> <http://www.w3.org/ns/shacl#name> "Satisfacción"@es .
+<https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#108cefa710c9820fe8ffe597b4028615> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Contentment> .
+# 
+# https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003
+<https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003> <http://www.w3.org/2000/01/rdf-schema#label> "Alivio"@es .
+<https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003> <http://www.w3.org/2000/01/rdf-schema#label> "Relief"@en .
+<https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003> <http://www.w3.org/ns/shacl#description> "It refers to the degree of relief conveyed by a word."@es .
+<https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de alivio que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003> <http://www.w3.org/ns/shacl#name> "Alivio"@es .
+<https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003> <http://www.w3.org/ns/shacl#name> "Relief"@en .
+<https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#135d0672f452661586622d5dc4b4c003> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Relief> .
+# 
+# https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e
+<https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e> <http://www.w3.org/2000/01/rdf-schema#label> "Asco"@es .
+<https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e> <http://www.w3.org/2000/01/rdf-schema#label> "Disgust"@en .
+<https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e> <http://www.w3.org/ns/shacl#description> "It refers to the degree of disgust conveyed by a word."@en .
+<https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de asco que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e> <http://www.w3.org/ns/shacl#name> "Asco"@es .
+<https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e> <http://www.w3.org/ns/shacl#name> "Disgust"@en .
+<https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#2cea00027178649fad265cb35245da9e> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Disgust> .
+# 
+# https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016
+<https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRIOrLiteral> .
+<https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/lemon/ontolex#canonicalForm> .
+<https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016> <http://www.w3.org/ns/shacl#qualifiedMaxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016> <http://www.w3.org/ns/shacl#qualifiedValueShape> _:genid3 .
+_:genid3 <http://www.w3.org/ns/shacl#class> <http://www.w3.org/ns/lemon/ontolex#Form> .
+# 
+# https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8
+<https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8> <http://www.w3.org/2000/01/rdf-schema#label> "Arithmetic mean of a distribution"@en .
+<https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8> <http://www.w3.org/2000/01/rdf-schema#label> "Mean"@en .
+<https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#double> .
+<https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8> <http://www.w3.org/ns/shacl#description> "Arithmetic mean of a distribution"@en .
+<https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8> <http://www.w3.org/ns/shacl#name> "Mean"@en .
+<https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8> <http://www.w3.org/ns/shacl#path> <https://w3id.org/riverbench/schema/metadata#mean> .
+<https://astrea.linkeddata.es/shapes#25caee71ca0a4848c897a4f54e097da8> <http://www.w3.org/ns/shacl#pattern> "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+# 
+# https://astrea.linkeddata.es/shapes#3fb6ff86370e59e28c2d3851e5b3f004
+<https://astrea.linkeddata.es/shapes#3fb6ff86370e59e28c2d3851e5b3f004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#3fb6ff86370e59e28c2d3851e5b3f004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#3fb6ff86370e59e28c2d3851e5b3f004> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#3fb6ff86370e59e28c2d3851e5b3f004> <http://www.w3.org/ns/shacl#targetClass> <http://rdfs.org/ns/void#Dataset> .
+# 
+# https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a
+<https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a> <http://www.w3.org/2000/01/rdf-schema#label> "Felicidad"@es .
+<https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a> <http://www.w3.org/2000/01/rdf-schema#label> "Happiness"@en .
+<https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a> <http://www.w3.org/ns/shacl#description> "It refers to the degree of happiness conveyed by a word."@en .
+<https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de felicidad que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a> <http://www.w3.org/ns/shacl#name> "Felicidad"@es .
+<https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a> <http://www.w3.org/ns/shacl#name> "Happiness"@en .
+<https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#303ba1d0261fa9aaaaf98aec911bea0a> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Happiness> .
+# 
+# https://astrea.linkeddata.es/shapes#305f5261afd9d25b76ecf33d5f3e724b
+<https://astrea.linkeddata.es/shapes#305f5261afd9d25b76ecf33d5f3e724b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#305f5261afd9d25b76ecf33d5f3e724b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#305f5261afd9d25b76ecf33d5f3e724b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#305f5261afd9d25b76ecf33d5f3e724b> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/lemon/ontolex#lexicalForm> .
+# 
+# https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2
+<https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRIOrLiteral> .
+<https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/lemon/ontolex#lexicalForm> .
+<https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2> <http://www.w3.org/ns/shacl#qualifiedMinCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2> <http://www.w3.org/ns/shacl#qualifiedValueShape> _:genid4 .
+_:genid4 <http://www.w3.org/ns/shacl#class> <http://www.w3.org/ns/lemon/ontolex#Form> .
+# 
+# https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603
+<https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603> <http://www.w3.org/2000/01/rdf-schema#label> "Body Expression"@en .
+<https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603> <http://www.w3.org/2000/01/rdf-schema#label> "Expresión Corporal"@es .
+<https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603> <http://www.w3.org/ns/shacl#description> "It refers to the degree of the word's connection with changes in parts of the body such as the voice, posture, gestures, or facial expression."@en .
+<https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de relación de la palabra con cambios en partes del cuerpo como la voz, la postura, los gestos, o la expresión de la cara"@es .
+<https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603> <http://www.w3.org/ns/shacl#name> "Body Expression"@en .
+<https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603> <http://www.w3.org/ns/shacl#name> "Expresión Corporal"@es .
+<https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#4b5dfb919ba67e61af6c38d808833603> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#BodyExpression> .
+# 
+# https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9
+<https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9> <http://www.w3.org/2000/01/rdf-schema#label> "Experiencia sensorial"@es .
+<https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9> <http://www.w3.org/2000/01/rdf-schema#label> "Sensory Experience"@en .
+<https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9> <http://www.w3.org/ns/shacl#description> "Indica hasta qué punto la palabra evoca una experiencia sensorial/perceptiva (sabor, tacto, vista, sonido y olor)."@es .
+<https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9> <http://www.w3.org/ns/shacl#description> "It indicates the extent to which the word evokes a sensory/perceptual experience (taste, touch, sight, sound, and smell)."@en .
+<https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9> <http://www.w3.org/ns/shacl#name> "Experiencia sensorial"@es .
+<https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9> <http://www.w3.org/ns/shacl#name> "Sensory Experience"@en .
+<https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#4095453e246404dba71751860f717dd9> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#SensoryExperience> .
+# 
+# https://astrea.linkeddata.es/shapes#41e77c2f330c01f0cdd742305298c81f
+<https://astrea.linkeddata.es/shapes#41e77c2f330c01f0cdd742305298c81f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#41e77c2f330c01f0cdd742305298c81f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#41e77c2f330c01f0cdd742305298c81f> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#41e77c2f330c01f0cdd742305298c81f> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/lemon/lime#language> .
+# 
+# https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e
+<https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e> <http://www.w3.org/2000/01/rdf-schema#label> "Admiración"@es .
+<https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e> <http://www.w3.org/2000/01/rdf-schema#label> "Awe"@en .
+<https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e> <http://www.w3.org/ns/shacl#description> "It refers to the degree of awe conveyed by a word."@en .
+<https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de admiración que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e> <http://www.w3.org/ns/shacl#name> "Admiración"@es .
+<https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e> <http://www.w3.org/ns/shacl#name> "Awe"@en .
+<https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#428a34967896e61729350adf0b11e26e> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Awe> .
+# 
+# https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3
+<https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3> <http://www.w3.org/2000/01/rdf-schema#label> "Prototipicalidad"@es .
+<https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3> <http://www.w3.org/2000/01/rdf-schema#label> "Prototipicality"@en .
+<https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3> <http://www.w3.org/ns/shacl#description> "It refers to the degree of the word’s connection with an emotion."@en .
+<https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de relación de la palabra con una emoción."@es .
+<https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3> <http://www.w3.org/ns/shacl#name> "Prototipicalidad"@es .
+<https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3> <http://www.w3.org/ns/shacl#name> "Prototipicality"@en .
+<https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#5ea3e49979d3bd3c5a33c74aebf24be3> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Prototipicality> .
+# 
+# https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b
+<https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b> <http://www.w3.org/2000/01/rdf-schema#label> "Action"@en .
+<https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b> <http://www.w3.org/2000/01/rdf-schema#label> "Actuación"@es .
+<https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b> <http://www.w3.org/ns/shacl#description> "It refers to the degree of the word's connection with acting, doing, and influencing."@en .
+<https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de relación de la palabra con actuar, hacer, e influir."@es .
+<https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b> <http://www.w3.org/ns/shacl#name> "Action"@en .
+<https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b> <http://www.w3.org/ns/shacl#name> "Actuación"@es .
+<https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#537e65e8eee46e84b9f08ec9f11ae87b> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Action> .
+# 
+# https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e
+<https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de error de reconocimiento (LDT)"@es .
+<https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e> <http://www.w3.org/2000/01/rdf-schema#label> "Recognition Error Percentage"@en .
+<https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e> <http://www.w3.org/ns/shacl#description> "%E"@en .
+<https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e> <http://www.w3.org/ns/shacl#description> "Percentage of incorrect word identification in a lexical decision task."@en .
+<https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e> <http://www.w3.org/ns/shacl#description> "Porcentaje de identificación incorrecta de la palabra en una tarea de decisión léxica."@es .
+<https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e> <http://www.w3.org/ns/shacl#name> "Porcentaje de error de reconocimiento (LDT)"@es .
+<https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e> <http://www.w3.org/ns/shacl#name> "Recognition Error Percentage"@en .
+<https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#63c071f302ae1e979b5fd92884bb622e> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#RecognitionErrorPercentage> .
+# 
+# https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e
+<https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensión subjetiva"@es .
+<https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e> <http://www.w3.org/2000/01/rdf-schema#label> "Subjective Dimension"@en .
+<https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e> <http://www.w3.org/ns/shacl#name> "Dimensión subjetiva"@es .
+<https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e> <http://www.w3.org/ns/shacl#name> "Subjective Dimension"@en .
+<https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#66eac1175879d0dc8b56afa38503c11e> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#SubjectiveDimension> .
+# 
+# https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58
+<https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58> <http://www.w3.org/2000/01/rdf-schema#label> "Serenidad"@es .
+<https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58> <http://www.w3.org/2000/01/rdf-schema#label> "Serenity"@en .
+<https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58> <http://www.w3.org/ns/shacl#description> "It refers to the degree of serenity conveyed by a word."@en .
+<https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de serenidad que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58> <http://www.w3.org/ns/shacl#name> "Serenidad"@es .
+<https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58> <http://www.w3.org/ns/shacl#name> "Serenity"@en .
+<https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#67dd61831121c7b9299e299629711c58> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Serenity> .
+# 
+# https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c
+<https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c> <http://www.w3.org/2000/01/rdf-schema#label> "Dominance"@en .
+<https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c> <http://www.w3.org/2000/01/rdf-schema#label> "Dominancia"@es .
+<https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c> <http://www.w3.org/ns/shacl#description> "Dominance refers to the perception of control evoked by a word, that is, the extent to which a person feels weak/submissive or strong/dominant in relation to the concept the word represents."@en .
+<https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c> <http://www.w3.org/ns/shacl#description> "La dominancia hace referencia a la percepción de control que evoca una palabra, es decir, hasta qué punto la persona se siente débil/sumisa o fuerte/dominante ante el concepto que designa la palabra."@es .
+<https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c> <http://www.w3.org/ns/shacl#name> "Dominance"@en .
+<https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c> <http://www.w3.org/ns/shacl#name> "Dominancia"@es .
+<https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#69303d074534678d2503b0ea01835b1c> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Dominance> .
+# 
+# https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/ontolex> .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikoneintrag"@de .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/2000/01/rdf-schema#label> "entrada léxica"@es .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/2000/01/rdf-schema#label> "entrata lessicale"@it .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/2000/01/rdf-schema#label> "entrée lexicale"@fr .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/2000/01/rdf-schema#label> "leksikale inskrywing"@af .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/2000/01/rdf-schema#label> "lexical entry"@en .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/2000/01/rdf-schema#label> "lexikaal item"@nl .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/2000/01/rdf-schema#label> "lexikoningång"@sv .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/2000/01/rdf-schema#label> "înregistrare lexicală"@ro .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/2000/01/rdf-schema#label> "словарная единица"@ru .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#description> "'Словарная единица' представляет собой единицу анализа словаря, которая состоит из совокупности грамматически связанных форм и совокупности основных значений, ассоциирующихся со всеми этими формами. 'Словарная единица' - это слово, словосочетание или аффикс одной части речи, морфологической модели, этимологии и набора значений."@ru .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#description> "A lexical entry represents a unit of analysis of the lexicon that consists of a set of forms that are grammatically related and a set of base meanings that are associated with all of these forms. Thus, a lexical entry is a word, multiword expression or affix with a single part-of-speech, morphological pattern, etymology and set of senses."@en .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#name> "Lexikoneintrag"@de .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#name> "entrada léxica"@es .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#name> "entrata lessicale"@it .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#name> "entrée lexicale"@fr .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#name> "leksikale inskrywing"@af .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#name> "lexical entry"@en .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#name> "lexikaal item"@nl .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#name> "lexikoningång"@sv .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#name> "înregistrare lexicală"@ro .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#name> "словарная единица"@ru .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#247f5f4f73d9f1056c0311cd80f31016> .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#31854da01ff26aff9c9cfeb1558112f2> .
+<https://astrea.linkeddata.es/shapes#7edff73be9d889430b68b0d99b97bd4f> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> .
+# 
+# https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a
+<https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a> <http://www.w3.org/2000/01/rdf-schema#label> "Contextual Availability"@en .
+<https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a> <http://www.w3.org/2000/01/rdf-schema#label> "Disponibilidad contextual"@es .
+<https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a> <http://www.w3.org/ns/shacl#description> "Contextual availability refers to the ease with which we can think of a context to which the word could be associated."@en .
+<https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a> <http://www.w3.org/ns/shacl#description> "La disponibilidad contextual se refiere a la facilidad con la que podemos pensar en un contexto al cual se podría asociar la palabra."@es .
+<https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a> <http://www.w3.org/ns/shacl#name> "Contextual Availability"@en .
+<https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a> <http://www.w3.org/ns/shacl#name> "Disponibilidad contextual"@es .
+<https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#7156b76ab0075cf41c84e37b6d28332a> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#ContextualAvailability> .
+# 
+# https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3
+<https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3> <http://www.w3.org/2000/01/rdf-schema#label> "Categoría emocional discreta"@es .
+<https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3> <http://www.w3.org/2000/01/rdf-schema#label> "Discrete emotional category"@en .
+<https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3> <http://www.w3.org/ns/shacl#name> "Categoría emocional discreta"@es .
+<https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3> <http://www.w3.org/ns/shacl#name> "Discrete emotional category"@en .
+<https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#7159df231d55982f93118e9c1dc430e3> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
+# 
+# https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b
+<https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b> <http://www.w3.org/2000/01/rdf-schema#label> "Familiaridad"@es .
+<https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b> <http://www.w3.org/2000/01/rdf-schema#label> "Familiarity"@en .
+<https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b> <http://www.w3.org/ns/shacl#description> "Familiarity refers to how familiar or known a word feels to a person."@en .
+<https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b> <http://www.w3.org/ns/shacl#description> "La familiaridad hace referencia a cuán familiar o conocida resulta una palabra para la persona."@es .
+<https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b> <http://www.w3.org/ns/shacl#name> "Familiaridad"@es .
+<https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b> <http://www.w3.org/ns/shacl#name> "Familiarity"@en .
+<https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#7602c614fc10b53e61cb9f01adc5c71b> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Familiarity> .
+# 
+# https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a
+<https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a> <http://www.w3.org/2000/01/rdf-schema#label> "Edad de adquisición objetiva"@es .
+<https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a> <http://www.w3.org/2000/01/rdf-schema#label> "Objective Acquisition Age"@en .
+<https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a> <http://www.w3.org/ns/shacl#description> "It refers to the age at which the word was acquired."@en .
+<https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a> <http://www.w3.org/ns/shacl#description> "Se refiere a la edad en la que se ha adquirido la palabra."@es .
+<https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a> <http://www.w3.org/ns/shacl#name> "Edad de adquisición objetiva"@es .
+<https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a> <http://www.w3.org/ns/shacl#name> "Objective Acquisition Age"@en .
+<https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#8be74a69bf2a47d6dec0860b8aa8626a> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#ObjectiveAcquisitionAge> .
+# 
+# https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4
+<https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4> <http://www.w3.org/2000/01/rdf-schema#label> "Concreción"@es .
+<https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4> <http://www.w3.org/2000/01/rdf-schema#label> "Concreteness"@en .
+<https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4> <http://www.w3.org/ns/shacl#description> "Concreteness refers to the extent to which a word refers to an entity that can be perceived with the senses."@en .
+<https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4> <http://www.w3.org/ns/shacl#description> "La concreción se refiere a hasta qué punto la palabra se refiere a una entidad que puede percibirse con los sentidos."@es .
+<https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4> <http://www.w3.org/ns/shacl#name> "Concreción"@es .
+<https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4> <http://www.w3.org/ns/shacl#name> "Concreteness"@en .
+<https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#8ccb0e85341ae98fc2ff4e3611c615e4> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Concreteness> .
+# 
+# https://astrea.linkeddata.es/shapes#8fd4b41227dc971480fd9ee63b484c1b
+<https://astrea.linkeddata.es/shapes#8fd4b41227dc971480fd9ee63b484c1b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#8fd4b41227dc971480fd9ee63b484c1b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#8fd4b41227dc971480fd9ee63b484c1b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#8fd4b41227dc971480fd9ee63b484c1b> <http://www.w3.org/ns/shacl#targetClass> <http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression> .
+# 
+# https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a
+<https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a> <http://www.w3.org/2000/01/rdf-schema#label> "Moralidad"@es .
+<https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a> <http://www.w3.org/2000/01/rdf-schema#label> "Morality"@en .
+<https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a> <http://www.w3.org/ns/shacl#description> "It refers to the degree of the word's connection with morality, rules, or any other principle that guides behavior."@en .
+<https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de relación de la palabra con la moralidad, las reglas, o cualquier otro principio que guía la conducta."@es .
+<https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a> <http://www.w3.org/ns/shacl#name> "Moralidad"@es .
+<https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a> <http://www.w3.org/ns/shacl#name> "Morality"@en .
+<https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#8261cb77b0f1e824ba7cb564a6274c6a> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Morality> .
+# 
+# https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e
+<https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e> <http://www.w3.org/2000/01/rdf-schema#label> "Article"@en .
+<https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e> <http://www.w3.org/ns/shacl#description> "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine."@en .
+<https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e> <http://www.w3.org/ns/shacl#name> "Article"@en .
+<https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#833b05164d9ecc6255e40173525ef19e> <http://www.w3.org/ns/shacl#targetClass> <http://purl.org/ontology/bibo/Article> .
+# 
+# https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc
+<https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc> <http://www.w3.org/2000/01/rdf-schema#label> "Valence"@en .
+<https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc> <http://www.w3.org/2000/01/rdf-schema#label> "Valencia"@es .
+<https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc> <http://www.w3.org/ns/shacl#description> "La valencia hace referencia al nivel de agrado o desagrado que evoca una palabra, es decir, cuán positiva o negativa le resulta a la persona."@es .
+<https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc> <http://www.w3.org/ns/shacl#description> "Valence refers to the level of pleasantness or unpleasantness evoked by a word, that is, how positive or negative it feels to the person."@en .
+<https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc> <http://www.w3.org/ns/shacl#name> "Valence"@en .
+<https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc> <http://www.w3.org/ns/shacl#name> "Valencia"@es .
+<https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#848c729691b6bf9ea7bb2b69f2af9fdc> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Valence> .
+# 
+# https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924
+<https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRIOrLiteral> .
+<https://astrea.linkeddata.es/shapes#858198aaf0f7e520c6533e839be0f924> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/lemon/lime#language> .
+# 
+# https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d
+<https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d> <http://www.w3.org/2000/01/rdf-schema#label> "Pensamiento"@es .
+<https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d> <http://www.w3.org/2000/01/rdf-schema#label> "Thought"@en .
+<https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d> <http://www.w3.org/ns/shacl#description> "It refers to the degree of the word's connection with mental activity, ideas, opinions, and judgments."@en .
+<https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de relación de la palabra con la actividad mental, las ideas, las opiniones y los juicios."@es .
+<https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d> <http://www.w3.org/ns/shacl#name> "Pensamiento"@es .
+<https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d> <http://www.w3.org/ns/shacl#name> "Thought"@en .
+<https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#86139c548cd1cefd2b7d8c6534d5f53d> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Thought> .
+# 
+# https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b
+<https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b> <http://www.w3.org/2000/01/rdf-schema#label> "Amusement"@en .
+<https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b> <http://www.w3.org/2000/01/rdf-schema#label> "Diversión"@es .
+<https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b> <http://www.w3.org/ns/shacl#description> "It refers to the degree of amusement conveyed by a word."@en .
+<https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b> <http://www.w3.org/ns/shacl#description> "Se refiere al grado de diversión que transmite una palabra."@es .
+<https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b> <http://www.w3.org/ns/shacl#name> "Amusement"@en .
+<https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b> <http://www.w3.org/ns/shacl#name> "Diversión"@es .
+<https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#9def51b6f71bc5692277f714c0bad91b> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#Amusement> .
+# 
+# https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b
+<https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b> <http://www.w3.org/2000/01/rdf-schema#label> "Recognition Time"@en .
+<https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de reconocimiento"@es .
+<https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b> <http://www.w3.org/ns/shacl#name> "Recognition Time"@en .
+<https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b> <http://www.w3.org/ns/shacl#name> "Tiempo de reconocimiento"@es .
+<https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#b38cb80e4157e47d11c3eb5790f8ef3c> .
+<https://astrea.linkeddata.es/shapes#91ca3416f1eeeba4cd4bb3706c0e647b> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/def/emolex#RecognitionTime> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://astrea.linkeddata.es/shapes#6c50d4f07a7da8a2273f365685323f41> <http://www.w3.org/2000/01/rdf-schema#label> "Esta propiedad asigna una Anotación a una Lexical Entry."@en .
+<https://astrea.linkeddata.es/shapes#6c50d4f07a7da8a2273f365685323f41> <http://www.w3.org/2000/01/rdf-schema#label> "affecta a"@es .
+<https://astrea.linkeddata.es/shapes#6c50d4f07a7da8a2273f365685323f41> <http://www.w3.org/2000/01/rdf-schema#label> "affects"@en .
+<https://astrea.linkeddata.es/shapes#6c50d4f07a7da8a2273f365685323f41> <http://www.w3.org/ns/shacl#description> "Esta propiedad asigna una Anotación a una Lexical Entry."@en .
+<https://astrea.linkeddata.es/shapes#6c50d4f07a7da8a2273f365685323f41> <http://www.w3.org/ns/shacl#name> "affecta a"@es .
+<https://astrea.linkeddata.es/shapes#6c50d4f07a7da8a2273f365685323f41> <http://www.w3.org/ns/shacl#name> "affects"@en .
+<https://astrea.linkeddata.es/shapes#6c50d4f07a7da8a2273f365685323f41> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

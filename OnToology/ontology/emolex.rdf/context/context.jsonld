@@ -1,0 +1,216 @@
+{
+  "@context" : {
+    "Contentment" : {
+      "@id" : "https://w3id.org/def/emolex#Contentment"
+    },
+    "Annotation" : {
+      "@id" : "https://w3id.org/def/emolex#Annotation"
+    },
+    "scopeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
+    },
+    "entry" : {
+      "@id" : "http://www.w3.org/ns/lemon/lime#entry",
+      "@type" : "@id"
+    },
+    "Arousal" : {
+      "@id" : "https://w3id.org/def/emolex#Arousal"
+    },
+    "Disgust" : {
+      "@id" : "https://w3id.org/def/emolex#Disgust"
+    },
+    "BodyExpression" : {
+      "@id" : "https://w3id.org/def/emolex#BodyExpression"
+    },
+    "term_status" : {
+      "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "lexicalForm" : {
+      "@id" : "http://www.w3.org/ns/lemon/ontolex#lexicalForm",
+      "@type" : "@id"
+    },
+    "Dataset" : {
+      "@id" : "http://rdfs.org/ns/void#Dataset"
+    },
+    "recognitionTime" : {
+      "@id" : "https://w3id.org/def/emolex#recognitionTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "standardDeviation" : {
+      "@id" : "https://w3id.org/riverbench/schema/metadata#standardDeviation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "RecognitionErrorPercentage" : {
+      "@id" : "https://w3id.org/def/emolex#RecognitionErrorPercentage"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "Anger" : {
+      "@id" : "https://w3id.org/def/emolex#Anger"
+    },
+    "Dominance" : {
+      "@id" : "https://w3id.org/def/emolex#Dominance"
+    },
+    "Evaluation" : {
+      "@id" : "https://w3id.org/def/emolex#Evaluation"
+    },
+    "Interoception" : {
+      "@id" : "https://w3id.org/def/emolex#Interoception"
+    },
+    "canonicalForm" : {
+      "@id" : "http://www.w3.org/ns/lemon/ontolex#canonicalForm",
+      "@type" : "@id"
+    },
+    "RecognitionTime" : {
+      "@id" : "https://w3id.org/def/emolex#RecognitionTime"
+    },
+    "mean" : {
+      "@id" : "https://w3id.org/riverbench/schema/metadata#mean",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "AcquisitionAge" : {
+      "@id" : "https://w3id.org/def/emolex#AcquisitionAge"
+    },
+    "Morality" : {
+      "@id" : "https://w3id.org/def/emolex#Morality"
+    },
+    "Concreteness" : {
+      "@id" : "https://w3id.org/def/emolex#Concreteness"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Lexicon" : {
+      "@id" : "http://www.w3.org/ns/lemon/lime#Lexicon"
+    },
+    "ContextualAvailability" : {
+      "@id" : "https://w3id.org/def/emolex#ContextualAvailability"
+    },
+    "Expression" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression"
+    },
+    "TimeTdl" : {
+      "@id" : "https://w3id.org/def/emolex#TimeTdl"
+    },
+    "EmotionalDimension" : {
+      "@id" : "https://w3id.org/def/emolex#EmotionalDimension"
+    },
+    "Familiarity" : {
+      "@id" : "https://w3id.org/def/emolex#Familiarity"
+    },
+    "Pleasure" : {
+      "@id" : "https://w3id.org/def/emolex#Pleasure"
+    },
+    "affects" : {
+      "@id" : "https://w3id.org/def/emolex#affects",
+      "@type" : "@id"
+    },
+    "DiscreteEmotionalCategory" : {
+      "@id" : "https://w3id.org/def/emolex#DiscreteEmotionalCategory"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "Valence" : {
+      "@id" : "https://w3id.org/def/emolex#Valence"
+    },
+    "Article" : {
+      "@id" : "http://purl.org/ontology/bibo/Article"
+    },
+    "Awe" : {
+      "@id" : "https://w3id.org/def/emolex#Awe"
+    },
+    "Happiness" : {
+      "@id" : "https://w3id.org/def/emolex#Happiness"
+    },
+    "LexicalEntry" : {
+      "@id" : "http://www.w3.org/ns/lemon/ontolex#LexicalEntry"
+    },
+    "statisticalProperty" : {
+      "@id" : "https://w3id.org/riverbench/schema/metadata#statisticalProperty"
+    },
+    "Form" : {
+      "@id" : "http://www.w3.org/ns/lemon/ontolex#Form"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/terms/rights",
+      "@type" : "@id"
+    },
+    "Amusement" : {
+      "@id" : "https://w3id.org/def/emolex#Amusement"
+    },
+    "Excitement" : {
+      "@id" : "https://w3id.org/def/emolex#Excitement"
+    },
+    "Sadness" : {
+      "@id" : "https://w3id.org/def/emolex#Sadness"
+    },
+    "ObjectiveAcquisitionAge" : {
+      "@id" : "https://w3id.org/def/emolex#ObjectiveAcquisitionAge"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Feeling" : {
+      "@id" : "https://w3id.org/def/emolex#Feeling"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "TimeNaming" : {
+      "@id" : "https://w3id.org/def/emolex#TimeNaming"
+    },
+    "Iconicity" : {
+      "@id" : "https://w3id.org/def/emolex#Iconicity"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "Thought" : {
+      "@id" : "https://w3id.org/def/emolex#Thought"
+    },
+    "SensoryExperience" : {
+      "@id" : "https://w3id.org/def/emolex#SensoryExperience"
+    },
+    "Relief" : {
+      "@id" : "https://w3id.org/def/emolex#Relief"
+    },
+    "ObjectiveEstimation" : {
+      "@id" : "https://w3id.org/def/emolex#ObjectiveEstimation"
+    },
+    "Fear" : {
+      "@id" : "https://w3id.org/def/emolex#Fear"
+    },
+    "SubjectiveDimension" : {
+      "@id" : "https://w3id.org/def/emolex#SubjectiveDimension"
+    },
+    "Imageability" : {
+      "@id" : "https://w3id.org/def/emolex#Imageability"
+    },
+    "Prototipicality" : {
+      "@id" : "https://w3id.org/def/emolex#Prototipicality"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Document" : {
+      "@id" : "http://purl.org/ontology/bibo/Document"
+    },
+    "language" : {
+      "@id" : "http://www.w3.org/ns/lemon/lime#language"
+    },
+    "Action" : {
+      "@id" : "https://w3id.org/def/emolex#Action"
+    },
+    "SocialInteraction" : {
+      "@id" : "https://w3id.org/def/emolex#SocialInteraction"
+    },
+    "Serenity" : {
+      "@id" : "https://w3id.org/def/emolex#Serenity"
+    }
+  }
+}
