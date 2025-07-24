@@ -13,15 +13,20 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix emoskos: <https://w3id.org/def/emolex/kos/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix semiotics: <http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#> .
 @base <https://w3id.org/def/emolex#> .
 
 <https://w3id.org/def/emolex#> rdf:type owl:Ontology ;
                                 dc:creator "David Chaves Fraga" ,
                                            "Patricia Martín Chozas" ;
                                 dc:title "Ontology for describing emotional word metrics" ;
+                                terms:license "https://creativecommons.org/licenses/by/4.0" ;
                                 rdfs:label "Ontology for describing emotional word metrics" ;
                                 owl:versionInfo "1.0" .
 
@@ -42,6 +47,10 @@ dc:source rdf:type owl:AnnotationProperty ;
 dc:title rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/terms/license
+terms:license rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2002/07/owl#versionInfo
 owl:versionInfo rdf:type owl:AnnotationProperty .
 
@@ -58,9 +67,14 @@ skos:scopeNote rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  http://purl.org/dc/terms/rights
-terms:rights rdf:type owl:ObjectProperty ;
-             skos:scopeNote "Used to describe rights related to a bibliographic resource."@en .
+###  http://purl.org/dc/terms/source
+terms:source rdf:type owl:ObjectProperty .
+
+
+###  http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech
+lexinfo:partOfSpeech rdf:type owl:ObjectProperty ;
+                     rdfs:domain ontolex:LexicalEntry ;
+                     rdfs:range lexinfo:PartOfSpeech .
 
 
 ###  http://www.w3.org/ns/lemon/lime#entry
@@ -89,30 +103,111 @@ ontolex:canonicalForm rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf ontolex:lexicalForm .
 
 
+###  http://www.w3.org/ns/lemon/ontolex#evokes
+ontolex:evokes rdf:type owl:ObjectProperty ;
+               rdfs:domain ontolex:LexicalEntry ;
+               rdfs:range skos:Concept .
+
+
 ###  http://www.w3.org/ns/lemon/ontolex#lexicalForm
-ontolex:lexicalForm rdf:type owl:ObjectProperty .
+ontolex:lexicalForm rdf:type owl:ObjectProperty ;
+                    rdfs:domain ontolex:LexicalEntry ;
+                    rdfs:range ontolex:Form .
 
 
 ###  https://w3id.org/def/emolex#affects
 :affects rdf:type owl:ObjectProperty ;
          rdfs:domain :Annotation ;
+         rdfs:range ontolex:LexicalEntry ;
          rdfs:comment "Esta propiedad asigna una Anotación a una Lexical Entry."@en ;
          rdfs:label "affecta a"@es ,
                     "affects"@en .
+
+
+###  https://w3id.org/def/emolex#source
+:source rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf terms:source ;
+        rdfs:domain [ owl:intersectionOf ( lime:Lexicon
+                                           :Annotation
+                                         ) ;
+                      rdf:type owl:Class
+                    ] ;
+        rdfs:range [ owl:intersectionOf ( bibo:Article
+                                          lime:Lexicon
+                                        ) ;
+                     rdf:type owl:Class
+                   ] .
+
+
+###  https://w3id.org/def/emolex#sourceLiteral
+:sourceLiteral rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf terms:source ;
+               rdfs:domain [ owl:intersectionOf ( bibo:Article
+                                                  lexinfo:PartOfSpeech
+                                                ) ;
+                             rdf:type owl:Class
+                           ] .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
+###  http://purl.org/dc/terms/rights
+terms:rights rdf:type owl:DatatypeProperty ;
+             rdfs:domain bibo:Article ;
+             rdfs:range xsd:string .
+
+
+###  http://www.lexinfo.net/ontology/3.0/lexinfo#etimology
+lexinfo:etimology rdf:type owl:DatatypeProperty ;
+                  rdfs:domain ontolex:LexicalEntry ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.lexinfo.net/ontology/3.0/lexinfo#gener
+lexinfo:gener rdf:type owl:DatatypeProperty ;
+              rdfs:domain ontolex:LexicalEntry ;
+              rdfs:range xsd:string .
+
+
+###  http://www.lexinfo.net/ontology/3.0/lexinfo#number
+lexinfo:number rdf:type owl:DatatypeProperty ;
+               rdfs:domain ontolex:Form ;
+               rdfs:range xsd:int .
+
+
 ###  http://www.w3.org/ns/lemon/lime#language
-lime:language rdf:type owl:DatatypeProperty .
+lime:language rdf:type owl:DatatypeProperty ;
+              rdfs:domain ontolex:LexicalEntry ;
+              rdfs:range rdf:langString .
+
+
+###  http://www.w3.org/ns/lemon/ontolex#writenRep
+ontolex:writenRep rdf:type owl:DatatypeProperty ;
+                  rdfs:domain ontolex:Form ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.w3.org/ns/lemon/vartrans#translatableAs
+vartrans:translatableAs rdf:type owl:DatatypeProperty ;
+                        rdfs:domain ontolex:LexicalEntry ;
+                        rdfs:range xsd:string .
 
 
 ###  https://w3id.org/def/emolex#recognitionTime
 :recognitionTime rdf:type owl:DatatypeProperty ;
                  rdfs:domain :RecognitionTime ;
                  rdfs:range xsd:float .
+
+
+###  https://w3id.org/def/emolex#sourceLiteral
+:sourceLiteral rdf:type owl:DatatypeProperty ;
+               rdfs:range [ rdf:type rdfs:Datatype ;
+                            owl:unionOf ( xsd:anyURI
+                                          xsd:string
+                                        )
+                          ] .
 
 
 ###  https://w3id.org/riverbench/schema/metadata#mean
@@ -167,16 +262,24 @@ bibo:Document rdf:type owl:Class .
 
 
 ###  http://rdfs.org/ns/void#Dataset
-<http://rdfs.org/ns/void#Dataset> rdf:type owl:Class .
+void:Dataset rdf:type owl:Class .
+
+
+###  http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech
+lexinfo:PartOfSpeech rdf:type owl:Class .
 
 
 ###  http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression
-<http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression> rdf:type owl:Class .
+semiotics:Expression rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+skos:Concept rdf:type owl:Class .
 
 
 ###  http://www.w3.org/ns/lemon/lime#Lexicon
 lime:Lexicon rdf:type owl:Class ;
-             rdfs:subClassOf <http://rdfs.org/ns/void#Dataset> ,
+             rdfs:subClassOf void:Dataset ,
                              [ rdf:type owl:Restriction ;
                                owl:onProperty lime:entry ;
                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
@@ -208,7 +311,7 @@ ontolex:Form rdf:type owl:Class .
 
 ###  http://www.w3.org/ns/lemon/ontolex#LexicalEntry
 ontolex:LexicalEntry rdf:type owl:Class ;
-                     rdfs:subClassOf <http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression> ,
+                     rdfs:subClassOf semiotics:Expression ,
                                      owl:Thing ,
                                      [ rdf:type owl:Restriction ;
                                        owl:onProperty ontolex:lexicalForm ;
