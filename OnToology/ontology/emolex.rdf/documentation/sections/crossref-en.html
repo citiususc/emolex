@@ -285,6 +285,11 @@ This section provides details for each class and property defined by Ontology fo
                title="http://purl.org/ontology/bibo/Document">document</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://purl.org/dc/terms/rights" title="http://purl.org/dc/terms/rights">rights</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="Awe">
@@ -669,9 +674,25 @@ This section provides details for each class and property defined by Ontology fo
                title="http://www.w3.org/2002/07/owl#Thing">thing</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#etimology"
+               title="http://www.lexinfo.net/ontology/3.0/lexinfo#etimology">etimology</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.w3.org/ns/lemon/ontolex#evokes" title="http://www.w3.org/ns/lemon/ontolex#evokes">evokes</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#gener"
+               title="http://www.lexinfo.net/ontology/3.0/lexinfo#gener">gener</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.w3.org/ns/lemon/lime#language" title="http://www.w3.org/ns/lemon/lime#language">language</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.w3.org/ns/lemon/ontolex#lexicalForm" title="http://www.w3.org/ns/lemon/ontolex#lexicalForm">lexical form</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech"
+               title="http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech">part of speech</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/lemon/vartrans#translatableAs"
+               title="http://www.w3.org/ns/lemon/vartrans#translatableAs">translatable as</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#http://www.w3.org/ns/lemon/lime#entry" title="http://www.w3.org/ns/lemon/lime#entry">entry</a>
+            <a href="#affects" title="https://w3id.org/def/emolex#affects">affects</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/lemon/lime#entry" title="http://www.w3.org/ns/lemon/lime#entry">entry</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -1060,8 +1081,29 @@ This section provides details for each class and property defined by Ontology fo
          <a href="#http://www.w3.org/ns/lemon/lime#entry" title="http://www.w3.org/ns/lemon/lime#entry">entry</a>
       </li>
       <li>
-         <a href="#http://purl.org/dc/terms/rights" title="http://purl.org/dc/terms/rights">
-            <span>rights</span>
+         <a href="#http://www.w3.org/ns/lemon/ontolex#evokes" title="http://www.w3.org/ns/lemon/ontolex#evokes">
+            <span>evokes</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/lemon/ontolex#lexicalForm" title="http://www.w3.org/ns/lemon/ontolex#lexicalForm">
+            <span>lexical form</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech"
+            title="http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech">
+            <span>part of speech</span>
+         </a>
+      </li>
+      <li>
+         <a href="#source" title="https://w3id.org/def/emolex#source">
+            <span>source</span>
+         </a>
+      </li>
+      <li>
+         <a href="#sourceLiteral" title="https://w3id.org/def/emolex#sourceLiteral">
+            <span>source literal</span>
          </a>
       </li>
    </ul>
@@ -1082,6 +1124,11 @@ This section provides details for each class and property defined by Ontology fo
                <a href="#Annotation" title="https://w3id.org/def/emolex#Annotation">Annotation</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/lemon/ontolex#LexicalEntry" title="http://www.w3.org/ns/lemon/ontolex#LexicalEntry">lexical entry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
          </dl>
       </div>
    </div>
@@ -1096,9 +1143,7 @@ This section provides details for each class and property defined by Ontology fo
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.w3.org/ns/lemon/ontolex#lexicalForm"
-                  target="_blank"
-                  title="http://www.w3.org/ns/lemon/ontolex#lexicalForm">lexical form</a>
+               <a href="#http://www.w3.org/ns/lemon/ontolex#lexicalForm" title="http://www.w3.org/ns/lemon/ontolex#lexicalForm">lexical form</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -1137,13 +1182,150 @@ This section provides details for each class and property defined by Ontology fo
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://purl.org/dc/terms/rights">
-      <h3>rights<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="http://www.w3.org/ns/lemon/ontolex#evokes">
+      <h3>evokes<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/rights</p>
+         <strong>IRI:</strong> http://www.w3.org/ns/lemon/ontolex#evokes</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/lemon/ontolex#LexicalEntry" title="http://www.w3.org/ns/lemon/ontolex#LexicalEntry">lexical entry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2004/02/skos/core#Concept"
+                  target="_blank"
+                  title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/lemon/ontolex#lexicalForm">
+      <h3>lexical form<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/lemon/ontolex#lexicalForm</p>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/lemon/ontolex#canonicalForm" title="http://www.w3.org/ns/lemon/ontolex#canonicalForm">canonical form</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/lemon/ontolex#LexicalEntry" title="http://www.w3.org/ns/lemon/ontolex#LexicalEntry">lexical entry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/ns/lemon/ontolex#Form"
+                  target="_blank"
+                  title="http://www.w3.org/ns/lemon/ontolex#Form">form</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech">
+      <h3>part of speech<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/lemon/ontolex#LexicalEntry" title="http://www.w3.org/ns/lemon/ontolex#LexicalEntry">lexical entry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech"
+                  target="_blank"
+                  title="http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech">part of speech</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="source">
+      <h3>source<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/emolex#source</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://purl.org/dc/terms/source"
+                  target="_blank"
+                  title="http://purl.org/dc/terms/source">source</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/lemon/lime#Lexicon" title="http://www.w3.org/ns/lemon/lime#Lexicon">lexicon</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">and</span> 
+               <a href="#Annotation" title="https://w3id.org/def/emolex#Annotation">Annotation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://purl.org/ontology/bibo/Article" title="http://purl.org/ontology/bibo/Article">Article</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">and</span> 
+               <a href="#http://www.w3.org/ns/lemon/lime#Lexicon" title="http://www.w3.org/ns/lemon/lime#Lexicon">lexicon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="sourceLiteral">
+      <h3>source literal<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/emolex#sourceLiteral</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://purl.org/dc/terms/source"
+                  target="_blank"
+                  title="http://purl.org/dc/terms/source">source</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/ontology/bibo/Article" title="http://purl.org/ontology/bibo/Article">Article</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">and</span> 
+               <a href="http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech"
+                  target="_blank"
+                  title="http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech">part of speech</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is also defined as</dt>
+            <dd>
+               <a href="#sourceLiteral">data property</a>
+            </dd>
+         </dl>
+      </div>
    </div>
 </div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -1151,7 +1333,30 @@ This section provides details for each class and property defined by Ontology fo
    <h3 id="dataproperties-headline" class="list">Data Properties</h3>
    <ul class="hlist">
       <li>
+         <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#etimology"
+            title="http://www.lexinfo.net/ontology/3.0/lexinfo#etimology">
+            <span>etimology</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#gener"
+            title="http://www.lexinfo.net/ontology/3.0/lexinfo#gener">
+            <span>gener</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/lemon/lime#language" title="http://www.w3.org/ns/lemon/lime#language">
+            <span>language</span>
+         </a>
+      </li>
+      <li>
          <a href="#https://w3id.org/riverbench/schema/metadata#mean" title="https://w3id.org/riverbench/schema/metadata#mean">Mean</a>
+      </li>
+      <li>
+         <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#number"
+            title="http://www.lexinfo.net/ontology/3.0/lexinfo#number">
+            <span>number</span>
+         </a>
       </li>
       <li>
          <a href="#recognitionTime" title="https://w3id.org/def/emolex#recognitionTime">
@@ -1159,10 +1364,100 @@ This section provides details for each class and property defined by Ontology fo
          </a>
       </li>
       <li>
+         <a href="#http://purl.org/dc/terms/rights" title="http://purl.org/dc/terms/rights">
+            <span>rights</span>
+         </a>
+      </li>
+      <li>
+         <a href="#sourceLiteral" title="https://w3id.org/def/emolex#sourceLiteral">
+            <span>source literal</span>
+         </a>
+      </li>
+      <li>
          <a href="#https://w3id.org/riverbench/schema/metadata#standardDeviation"
             title="https://w3id.org/riverbench/schema/metadata#standardDeviation">Standard deviation</a>
       </li>
+      <li>
+         <a href="#http://www.w3.org/ns/lemon/vartrans#translatableAs"
+            title="http://www.w3.org/ns/lemon/vartrans#translatableAs">
+            <span>translatable as</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/lemon/ontolex#writenRep" title="http://www.w3.org/ns/lemon/ontolex#writenRep">
+            <span>writen rep</span>
+         </a>
+      </li>
    </ul>
+   <div class="entity" id="http://www.lexinfo.net/ontology/3.0/lexinfo#etimology">
+      <h3>etimology<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.lexinfo.net/ontology/3.0/lexinfo#etimology</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/lemon/ontolex#LexicalEntry" title="http://www.w3.org/ns/lemon/ontolex#LexicalEntry">lexical entry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.lexinfo.net/ontology/3.0/lexinfo#gener">
+      <h3>gener<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.lexinfo.net/ontology/3.0/lexinfo#gener</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/lemon/ontolex#LexicalEntry" title="http://www.w3.org/ns/lemon/ontolex#LexicalEntry">lexical entry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/lemon/lime#language">
+      <h3>language<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/lemon/lime#language</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/lemon/ontolex#LexicalEntry" title="http://www.w3.org/ns/lemon/ontolex#LexicalEntry">lexical entry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+                  target="_blank"
+                  title="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">lang string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="https://w3id.org/riverbench/schema/metadata#mean">
       <h3>Mean<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -1206,6 +1501,31 @@ This section provides details for each class and property defined by Ontology fo
          </dl>
       </div>
    </div>
+   <div class="entity" id="http://www.lexinfo.net/ontology/3.0/lexinfo#number">
+      <h3>number<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.lexinfo.net/ontology/3.0/lexinfo#number</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/ns/lemon/ontolex#Form"
+                  target="_blank"
+                  title="http://www.w3.org/ns/lemon/ontolex#Form">form</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#int"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#int">int</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="recognitionTime">
       <h3>recognition time<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -1225,6 +1545,55 @@ This section provides details for each class and property defined by Ontology fo
                <a href="http://www.w3.org/2001/XMLSchema#float"
                   target="_blank"
                   title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://purl.org/dc/terms/rights">
+      <h3>rights<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/rights</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/ontology/bibo/Article" title="http://purl.org/ontology/bibo/Article">Article</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="sourceLiteral">
+      <h3>source literal<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/emolex#sourceLiteral</p>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#anyURI"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#anyURI">anyURI</a> 
+               <span class="logic">or</span> 
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+            <dt>is also defined as</dt>
+            <dd>
+               <a href="#sourceLiteral">object property</a>
             </dd>
          </dl>
       </div>
@@ -1268,6 +1637,54 @@ This section provides details for each class and property defined by Ontology fo
                <a href="http://www.w3.org/2001/XMLSchema#double"
                   target="_blank"
                   title="http://www.w3.org/2001/XMLSchema#double">double</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/lemon/vartrans#translatableAs">
+      <h3>translatable as<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/lemon/vartrans#translatableAs</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/lemon/ontolex#LexicalEntry" title="http://www.w3.org/ns/lemon/ontolex#LexicalEntry">lexical entry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/lemon/ontolex#writenRep">
+      <h3>writen rep<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/lemon/ontolex#writenRep</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/ns/lemon/ontolex#Form"
+                  target="_blank"
+                  title="http://www.w3.org/ns/lemon/ontolex#Form">form</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
             </dd>
          </dl>
       </div>
