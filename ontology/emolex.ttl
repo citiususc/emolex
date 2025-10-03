@@ -98,6 +98,12 @@ lime:entry rdf:type owl:ObjectProperty ;
            vs:term_status "stable" .
 
 
+###  http://www.w3.org/ns/lemon/lime#language
+lime:language rdf:type owl:ObjectProperty ;
+              rdfs:domain ontolex:LexicalEntry ;
+              rdfs:range rdf:langString .
+
+
 ###  http://www.w3.org/ns/lemon/ontolex#canonicalForm
 ontolex:canonicalForm rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf ontolex:lexicalForm .
@@ -178,9 +184,7 @@ lexinfo:number rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.w3.org/ns/lemon/lime#language
-lime:language rdf:type owl:DatatypeProperty ;
-              rdfs:domain ontolex:LexicalEntry ;
-              rdfs:range rdf:langString .
+lime:language rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.w3.org/ns/lemon/ontolex#writenRep
@@ -271,6 +275,10 @@ lexinfo:PartOfSpeech rdf:type owl:Class .
 
 ###  http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression
 semiotics:Expression rdf:type owl:Class .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#langString
+rdf:langString rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept
@@ -438,6 +446,8 @@ ontolex:LexicalEntry rdf:type owl:Class ;
 ###  https://w3id.org/def/emolex#DiscreteEmotionalCategory
 :DiscreteEmotionalCategory rdf:type owl:Class ;
                            rdfs:subClassOf :Annotation ;
+                           rdfs:comment "Calificaciones continuas que indican el grado en que una palabra está asociada con emociones básicas específicas."@es ,
+                                        "Continuous ratings indicating the extent to which a word is associated with specific basic emotions."@en ;
                            rdfs:label "Categoría emocional discreta"@es ,
                                       "Discrete emotional category"@en .
 
@@ -463,6 +473,8 @@ ontolex:LexicalEntry rdf:type owl:Class ;
 ###  https://w3id.org/def/emolex#EmotionalDimension
 :EmotionalDimension rdf:type owl:Class ;
                     rdfs:subClassOf :Annotation ;
+                    rdfs:comment "Calificaciones afectivas continuas que describen las propiedades centrales del contenido emocional de las palabras."@es ,
+                                 "Continuous affective ratings describing the core properties of emotional word content."@en ;
                     rdfs:label "Dimensión emocional"@es ,
                                "Emotional Dimension"@en .
 
@@ -533,7 +545,7 @@ ontolex:LexicalEntry rdf:type owl:Class ;
 ###  https://w3id.org/def/emolex#Imageability
 :Imageability rdf:type owl:Class ;
               rdfs:subClassOf :SubjectiveDimension ;
-              rdfs:comment "Imaginability refers to the ease with which a mental image of the concept designated by the word can be formed."@en ,
+              rdfs:comment "Imageability refers to the ease with which a mental image of the concept designated by the word can be formed."@en ,
                            "La imaginabilidad hace referencia a la facilidad para formarse una imagen mental del concepto que designa la palabra."@es ;
               rdfs:label "Imageability"@en ,
                          "Imaginabilidad"@es .
@@ -569,6 +581,8 @@ ontolex:LexicalEntry rdf:type owl:Class ;
 ###  https://w3id.org/def/emolex#ObjectiveEstimation
 :ObjectiveEstimation rdf:type owl:Class ;
                      rdfs:subClassOf :Annotation ;
+                     rdfs:comment "Estimated value based on objective data."@en ,
+                                  "Valor estimado basado en datos objetivos."@es ;
                      rdfs:label "Estimación Objetiva"@es ,
                                 "Objective Estimation"@en .
 
@@ -588,7 +602,7 @@ ontolex:LexicalEntry rdf:type owl:Class ;
                  rdfs:comment "It refers to the degree of the word’s connection with an emotion."@en ,
                               "Se refiere al grado de relación de la palabra con una emoción."@es ;
                  rdfs:label "Prototipicalidad"@es ,
-                            "Prototipicality"@en .
+                            "Prototypicality"@en .
 
 
 ###  https://w3id.org/def/emolex#RecognitionErrorPercentage
@@ -604,6 +618,8 @@ ontolex:LexicalEntry rdf:type owl:Class ;
 ###  https://w3id.org/def/emolex#RecognitionTime
 :RecognitionTime rdf:type owl:Class ;
                  rdfs:subClassOf :Annotation ;
+                 rdfs:comment "Tiempo transcurrido entre la presentación de la palabra y la respuesta del participante."@es ,
+                              "Time elapsed between the presentation of the word and the participant's response."@en ;
                  rdfs:label "Recognition Time"@en ,
                             "Tiempo de reconocimiento"@es .
 
@@ -654,6 +670,8 @@ ontolex:LexicalEntry rdf:type owl:Class ;
 ###  https://w3id.org/def/emolex#SubjectiveDimension
 :SubjectiveDimension rdf:type owl:Class ;
                      rdfs:subClassOf :Annotation ;
+                     rdfs:comment "Calificaciones continuas que indican el grado en que una palabra está asociada con dimensiones distintas a la emocionalidad."@es ,
+                                  "Continuous ratings indicating the extent to which a word is associated with dimensions other than emotionality."@en ;
                      rdfs:label "Dimensión subjetiva"@es ,
                                 "Subjective Dimension"@en .
 
@@ -670,7 +688,7 @@ ontolex:LexicalEntry rdf:type owl:Class ;
 ###  https://w3id.org/def/emolex#TimeNaming
 :TimeNaming rdf:type owl:Class ;
             rdfs:subClassOf :RecognitionTime ;
-            rdfs:comment "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."@en ,
+            rdfs:comment "It refers to the word naming time, that is, the time taken to read the word aloud."@en ,
                          "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."@es ;
             rdfs:label "Naming time"@en ,
                        "Tiempo de nombrado"@es .
@@ -694,4 +712,4 @@ ontolex:LexicalEntry rdf:type owl:Class ;
                     "Valencia"@es .
 
 
-###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
