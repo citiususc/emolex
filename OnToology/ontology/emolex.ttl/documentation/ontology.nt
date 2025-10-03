@@ -73,6 +73,11 @@
 <http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "запись"@ru .
 <http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
 # 
+# http://www.w3.org/ns/lemon/lime#language
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> .
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+# 
 # http://www.w3.org/ns/lemon/ontolex#canonicalForm
 <http://www.w3.org/ns/lemon/ontolex#canonicalForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.w3.org/ns/lemon/ontolex#canonicalForm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/lemon/ontolex#lexicalForm> .
@@ -161,8 +166,6 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # 
 # http://www.w3.org/ns/lemon/lime#language
 <http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> .
-<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
 # 
 # http://www.w3.org/ns/lemon/ontolex#writenRep
 <http://www.w3.org/ns/lemon/ontolex#writenRep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -266,6 +269,9 @@ _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # 
 # http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression
 <http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#langString
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://www.w3.org/2004/02/skos/core#Concept
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -417,6 +423,8 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://w3id.org/def/emolex#DiscreteEmotionalCategory
 <https://w3id.org/def/emolex#DiscreteEmotionalCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/emolex#DiscreteEmotionalCategory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#DiscreteEmotionalCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Calificaciones continuas que indican el grado en que una palabra está asociada con emociones básicas específicas."@es .
+<https://w3id.org/def/emolex#DiscreteEmotionalCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Continuous ratings indicating the extent to which a word is associated with specific basic emotions."@en .
 <https://w3id.org/def/emolex#DiscreteEmotionalCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Categoría emocional discreta"@es .
 <https://w3id.org/def/emolex#DiscreteEmotionalCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Discrete emotional category"@en .
 # 
@@ -439,6 +447,8 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://w3id.org/def/emolex#EmotionalDimension
 <https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Calificaciones afectivas continuas que describen las propiedades centrales del contenido emocional de las palabras."@es .
+<https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Continuous affective ratings describing the core properties of emotional word content."@en .
 <https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensión emocional"@es .
 <https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Emotional Dimension"@en .
 # 
@@ -501,7 +511,7 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://w3id.org/def/emolex#Imageability
 <https://w3id.org/def/emolex#Imageability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/emolex#Imageability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
-<https://w3id.org/def/emolex#Imageability> <http://www.w3.org/2000/01/rdf-schema#comment> "Imaginability refers to the ease with which a mental image of the concept designated by the word can be formed."@en .
+<https://w3id.org/def/emolex#Imageability> <http://www.w3.org/2000/01/rdf-schema#comment> "Imageability refers to the ease with which a mental image of the concept designated by the word can be formed."@en .
 <https://w3id.org/def/emolex#Imageability> <http://www.w3.org/2000/01/rdf-schema#comment> "La imaginabilidad hace referencia a la facilidad para formarse una imagen mental del concepto que designa la palabra."@es .
 <https://w3id.org/def/emolex#Imageability> <http://www.w3.org/2000/01/rdf-schema#label> "Imageability"@en .
 <https://w3id.org/def/emolex#Imageability> <http://www.w3.org/2000/01/rdf-schema#label> "Imaginabilidad"@es .
@@ -533,6 +543,8 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://w3id.org/def/emolex#ObjectiveEstimation
 <https://w3id.org/def/emolex#ObjectiveEstimation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/emolex#ObjectiveEstimation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#ObjectiveEstimation> <http://www.w3.org/2000/01/rdf-schema#comment> "Estimated value based on objective data."@en .
+<https://w3id.org/def/emolex#ObjectiveEstimation> <http://www.w3.org/2000/01/rdf-schema#comment> "Valor estimado basado en datos objetivos."@es .
 <https://w3id.org/def/emolex#ObjectiveEstimation> <http://www.w3.org/2000/01/rdf-schema#label> "Estimación Objetiva"@es .
 <https://w3id.org/def/emolex#ObjectiveEstimation> <http://www.w3.org/2000/01/rdf-schema#label> "Objective Estimation"@en .
 # 
@@ -550,7 +562,7 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree of the word’s connection with an emotion."@en .
 <https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado de relación de la palabra con una emoción."@es .
 <https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#label> "Prototipicalidad"@es .
-<https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#label> "Prototipicality"@en .
+<https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#label> "Prototypicality"@en .
 # 
 # https://w3id.org/def/emolex#RecognitionErrorPercentage
 <https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -564,6 +576,8 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://w3id.org/def/emolex#RecognitionTime
 <https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Tiempo transcurrido entre la presentación de la palabra y la respuesta del participante."@es .
+<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Time elapsed between the presentation of the word and the participant's response."@en .
 <https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#label> "Recognition Time"@en .
 <https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de reconocimiento"@es .
 # 
@@ -608,6 +622,8 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://w3id.org/def/emolex#SubjectiveDimension
 <https://w3id.org/def/emolex#SubjectiveDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/emolex#SubjectiveDimension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#SubjectiveDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Calificaciones continuas que indican el grado en que una palabra está asociada con dimensiones distintas a la emocionalidad."@es .
+<https://w3id.org/def/emolex#SubjectiveDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Continuous ratings indicating the extent to which a word is associated with dimensions other than emotionality."@en .
 <https://w3id.org/def/emolex#SubjectiveDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensión subjetiva"@es .
 <https://w3id.org/def/emolex#SubjectiveDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Subjective Dimension"@en .
 # 
@@ -622,7 +638,7 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://w3id.org/def/emolex#TimeNaming
 <https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#RecognitionTime> .
-<https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."@en .
+<https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the word naming time, that is, the time taken to read the word aloud."@en .
 <https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."@es .
 <https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#label> "Naming time"@en .
 <https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de nombrado"@es .
