@@ -125,7 +125,8 @@ ontolex:lexicalForm rdf:type owl:ObjectProperty ;
 :affects rdf:type owl:ObjectProperty ;
          rdfs:domain :Annotation ;
          rdfs:range ontolex:LexicalEntry ;
-         rdfs:comment "Esta propiedad asigna una Anotación a una Lexical Entry."@en ;
+         rdfs:comment "This property assigns an Annotation to a Lexical Entry."@en ,
+                             "Esta propiedad asigna una Anotación a una Lexical Entry."@es ;
          rdfs:label "affecta a"@es ,
                     "affects"@en .
 
@@ -171,8 +172,8 @@ lexinfo:etimology rdf:type owl:DatatypeProperty ;
                   rdfs:range xsd:string .
 
 
-###  http://www.lexinfo.net/ontology/3.0/lexinfo#gener
-lexinfo:gener rdf:type owl:DatatypeProperty ;
+###  http://www.lexinfo.net/ontology/3.0/lexinfo#gender
+lexinfo:gender rdf:type owl:DatatypeProperty ;
               rdfs:domain ontolex:LexicalEntry ;
               rdfs:range xsd:string .
 
@@ -201,7 +202,7 @@ vartrans:translatableAs rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/def/emolex#recognitionTime
 :recognitionTime rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :RecognitionTime ;
+                 rdfs:domain :BehavioralMeasures ;
                  rdfs:range xsd:float .
 
 
@@ -605,23 +606,22 @@ ontolex:LexicalEntry rdf:type owl:Class ;
                             "Prototypicality"@en .
 
 
-###  https://w3id.org/def/emolex#RecognitionErrorPercentage
-:RecognitionErrorPercentage rdf:type owl:Class ;
-                            rdfs:subClassOf :RecognitionTime ;
-                            rdfs:comment "%E"@en ,
-                                         "Percentage of incorrect word identification in a lexical decision task."@en ,
+###  https://w3id.org/def/emolex#ErrorLDT
+:ErrorLDT rdf:type owl:Class ;
+                            rdfs:subClassOf :BehavioralMeasures ;
+                            rdfs:comment "Percentage of incorrect word identification in a lexical decision task."@en ,
                                          "Porcentaje de identificación incorrecta de la palabra en una tarea de decisión léxica."@es ;
                             rdfs:label "Porcentaje de error de reconocimiento (LDT)"@es ,
                                        "Recognition Error Percentage"@en .
 
 
-###  https://w3id.org/def/emolex#RecognitionTime
-:RecognitionTime rdf:type owl:Class ;
+###  https://w3id.org/def/emolex#BehavioralMeasures
+:BehavioralMeasures rdf:type owl:Class ;
                  rdfs:subClassOf :Annotation ;
-                 rdfs:comment "Tiempo transcurrido entre la presentación de la palabra y la respuesta del participante."@es ,
-                              "Time elapsed between the presentation of the word and the participant's response."@en ;
-                 rdfs:label "Recognition Time"@en ,
-                            "Tiempo de reconocimiento"@es .
+                 rdfs:comment "Medida conductual obtenida a partir de la respuesta del participante ante la presentación de la palabra."@es ,
+                              "Behavioral measure obtained from the participant's response to the presentation of the word."@en ;
+                 rdfs:label "Behavioral Measures"@en ,
+                            "Medidas Conductuales"@es .
 
 
 ###  https://w3id.org/def/emolex#Relief
@@ -663,6 +663,8 @@ ontolex:LexicalEntry rdf:type owl:Class ;
 ###  https://w3id.org/def/emolex#SocialInteraction
 :SocialInteraction rdf:type owl:Class ;
                    rdfs:subClassOf :SubjectiveDimension ;
+                   rdfs:comment "It refers to the degree to which the word is related to relationships between people."@en , 
+                   "Se refiere al grado en que la palabra está relacionada con las relaciones entre personas."@es ;
                    rdfs:label "Interacción social"@es ,
                               "Social Interaction"@en .
 
@@ -687,16 +689,16 @@ ontolex:LexicalEntry rdf:type owl:Class ;
 
 ###  https://w3id.org/def/emolex#TimeNaming
 :TimeNaming rdf:type owl:Class ;
-            rdfs:subClassOf :RecognitionTime ;
+            rdfs:subClassOf :BehavioralMeasures ;
             rdfs:comment "It refers to the word naming time, that is, the time taken to read the word aloud."@en ,
                          "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."@es ;
             rdfs:label "Naming time"@en ,
                        "Tiempo de nombrado"@es .
 
 
-###  https://w3id.org/def/emolex#TimeTdl
-:TimeTdl rdf:type owl:Class ;
-         rdfs:subClassOf :RecognitionTime ;
+###  https://w3id.org/def/emolex#TimeLdt
+:TimeLdt rdf:type owl:Class ;
+         rdfs:subClassOf :BehavioralMeasures ;
          rdfs:comment "La variable tiempo de respuesta en tareas de Decisión Léxica se refiere al tiempo que tarda un participante en reconocer si un estímulo presentado es una palabra real, esto es, que existe en el idioma."@es ,
                       "The variable response time in Lexical Decision tasks refers to the time it takes for a participant to recognize whether a presented stimulus is a real word, that is, one that exists in the language."@en ;
          rdfs:label "Response time (TDL)"@en ,
