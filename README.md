@@ -6,7 +6,7 @@ EmoLex follows a lexicographic modelling approach based on **OntoLex-lemon**: wo
 
 
 <p align="center">
-  <img title="logo" alt="YATTER" src="https://raw.githubusercontent.com/citiususc/emolex/main/diagrams/emolex.jpg"  width="300" height="300"/>
+  <img title="logo" alt="YATTER" src="https://raw.githubusercontent.com/citiususc/emolex/main/diagrams/emolex.jpg"  width="900"/>
 </p>
 
 ## Main namespace
