@@ -183,7 +183,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.lexinfo.net/ontology/3.0/lexinfo#gener",
+  "@id" : "http://www.lexinfo.net/ontology/3.0/lexinfo#gender",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.w3.org/ns/lemon/ontolex#LexicalEntry"
@@ -211,6 +211,9 @@
   } ]
 }, {
   "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://www.w3.org/2002/07/owl#versionInfo",
@@ -336,7 +339,7 @@
   } ]
 }, {
   "@id" : "http://www.w3.org/ns/lemon/lime#language",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.w3.org/ns/lemon/ontolex#LexicalEntry"
   } ],
@@ -460,6 +463,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Ontology for describing emotional word metrics"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/def/emolex/1.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "1.0"
@@ -595,6 +601,26 @@
     "@id" : "https://w3id.org/def/emolex#DiscreteEmotionalCategory"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/emolex#BehavioralMeasures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Behavioral measure obtained from the participant's response to the presentation of the word."
+  }, {
+    "@language" : "es",
+    "@value" : "Medida conductual obtenida a partir de la respuesta del participante ante la presentación de la palabra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Behavioral Measures"
+  }, {
+    "@language" : "es",
+    "@value" : "Medidas Conductuales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/emolex#Annotation"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/emolex#BodyExpression",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -677,6 +703,13 @@
 }, {
   "@id" : "https://w3id.org/def/emolex#DiscreteEmotionalCategory",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Calificaciones continuas que indican el grado en que una palabra está asociada con emociones básicas específicas."
+  }, {
+    "@language" : "en",
+    "@value" : "Continuous ratings indicating the extent to which a word is associated with specific basic emotions."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Categoría emocional discreta"
@@ -730,6 +763,13 @@
 }, {
   "@id" : "https://w3id.org/def/emolex#EmotionalDimension",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Calificaciones afectivas continuas que describen las propiedades centrales del contenido emocional de las palabras."
+  }, {
+    "@language" : "en",
+    "@value" : "Continuous affective ratings describing the core properties of emotional word content."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Dimensión emocional"
@@ -739,6 +779,26 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/emolex#Annotation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex#ErrorLDT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of incorrect word identification in a lexical decision task."
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de identificación incorrecta de la palabra en una tarea de decisión léxica."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Porcentaje de error de reconocimiento (LDT)"
+  }, {
+    "@language" : "en",
+    "@value" : "Recognition Error Percentage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
   } ]
 }, {
   "@id" : "https://w3id.org/def/emolex#Evaluation",
@@ -885,7 +945,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Imaginability refers to the ease with which a mental image of the concept designated by the word can be formed."
+    "@value" : "Imageability refers to the ease with which a mental image of the concept designated by the word can be formed."
   }, {
     "@language" : "es",
     "@value" : "La imaginabilidad hace referencia a la facilidad para formarse una imagen mental del concepto que designa la palabra."
@@ -963,6 +1023,13 @@
 }, {
   "@id" : "https://w3id.org/def/emolex#ObjectiveEstimation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Estimated value based on objective data."
+  }, {
+    "@language" : "es",
+    "@value" : "Valor estimado basado en datos objetivos."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Estimación Objetiva"
@@ -1008,46 +1075,10 @@
     "@value" : "Prototipicalidad"
   }, {
     "@language" : "en",
-    "@value" : "Prototipicality"
+    "@value" : "Prototypicality"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/emolex#EmotionalDimension"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/emolex#RecognitionErrorPercentage",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "%E"
-  }, {
-    "@language" : "en",
-    "@value" : "Percentage of incorrect word identification in a lexical decision task."
-  }, {
-    "@language" : "es",
-    "@value" : "Porcentaje de identificación incorrecta de la palabra en una tarea de decisión léxica."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "Porcentaje de error de reconocimiento (LDT)"
-  }, {
-    "@language" : "en",
-    "@value" : "Recognition Error Percentage"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/emolex#RecognitionTime",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Recognition Time"
-  }, {
-    "@language" : "es",
-    "@value" : "Tiempo de reconocimiento"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/emolex#Annotation"
   } ]
 }, {
   "@id" : "https://w3id.org/def/emolex#Relief",
@@ -1132,6 +1163,13 @@
 }, {
   "@id" : "https://w3id.org/def/emolex#SocialInteraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree to which the word is related to relationships between people."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado en que la palabra está relacionada con las relaciones entre personas."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Interacción social"
@@ -1145,6 +1183,13 @@
 }, {
   "@id" : "https://w3id.org/def/emolex#SubjectiveDimension",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Calificaciones continuas que indican el grado en que una palabra está asociada con dimensiones distintas a la emocionalidad."
+  }, {
+    "@language" : "en",
+    "@value" : "Continuous ratings indicating the extent to which a word is associated with dimensions other than emotionality."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Dimensión subjetiva"
@@ -1176,27 +1221,7 @@
     "@id" : "https://w3id.org/def/emolex#SubjectiveDimension"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/emolex#TimeNaming",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."
-  }, {
-    "@language" : "es",
-    "@value" : "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Naming time"
-  }, {
-    "@language" : "es",
-    "@value" : "Tiempo de nombrado"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/emolex#TimeTdl",
+  "@id" : "https://w3id.org/def/emolex#TimeLdt",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -1213,7 +1238,27 @@
     "@value" : "Tiempo de respuesta (LDT)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex#TimeNaming",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the word naming time, that is, the time taken to read the word aloud."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Naming time"
+  }, {
+    "@language" : "es",
+    "@value" : "Tiempo de nombrado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
   } ]
 }, {
   "@id" : "https://w3id.org/def/emolex#Valence",
@@ -1239,8 +1284,11 @@
   "@id" : "https://w3id.org/def/emolex#affects",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
+    "@language" : "es",
     "@value" : "Esta propiedad asigna una Anotación a una Lexical Entry."
+  }, {
+    "@language" : "en",
+    "@value" : "This property assigns an Annotation to a Lexical Entry."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/def/emolex#Annotation"
@@ -1259,7 +1307,7 @@
   "@id" : "https://w3id.org/def/emolex#recognitionTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
